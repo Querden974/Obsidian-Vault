@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Suivi Alternance.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Suivi Alternance"
+              "title": "index"
             }
           }
         ]
@@ -205,6 +205,7 @@
   "active": "80b42943d52a2a01",
   "lastOpenFiles": [
     "CLAUDE.md",
+    "Suivi Alternance.md",
     "Notes/_Procédures/Centre de documents/Zabbix/index.md",
     "Notes/_Procédures/Centre de documents/Routage/index.md",
     "Notes/_Procédures/_Centre de documents.base",
@@ -239,7 +240,6 @@
     "Notes/_Procédures/Centre de documents/Zabbix/Installation agent Zabbix passif (Linux).md",
     "Notes/_Procédures/Centre de documents/Zabbix/Alertes et Notifications.md",
     "Notes/_Procédures/Centre de documents/Routage/🦽Routage - RIP.md",
-    "Notes/_Procédures/Centre de documents/Routage/🚦Routage.md",
     "image/image/_Zabbix-1775648009632.jpeg",
     "image/image/_Zabbix-1775648064494.jpeg",
     "image/image/_Zabbix-1775647823842.jpeg",
