@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/_Procédures/Centre de documents/Zabbix/index.md",
+                "file": "Suivi Alternance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Suivi Alternance"
             }
           }
         ]
@@ -204,6 +204,8 @@
   },
   "active": "80b42943d52a2a01",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "Notes/_Procédures/Centre de documents/Zabbix/index.md",
     "Notes/_Procédures/Centre de documents/Routage/index.md",
     "Notes/_Procédures/_Centre de documents.base",
     "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281943904",
@@ -228,10 +230,8 @@
     "Notes/_Procédures/Centre de documents/Cisco packet Tracer/Activer SSH.md",
     "index.md",
     "_Notes.md",
-    "CLAUDE.md",
     "Notes/DEV/JavaScript/Basics/Exercices Algo/Somme Tableau.md",
     "Notes/DEV/JavaScript/Basics/Exercices Algo/Exercices Algo.md",
-    "Notes/_Procédures/Centre de documents/Zabbix/index.md",
     "Notes/_Procédures/Centre de documents/Zabbix/SNMP Cisco.md",
     "Notes/_Procédures/Centre de documents/Zabbix/Sondes Personnalisées.md",
     "Notes/_Procédures/Centre de documents/Zabbix/Prototypes LLD (Item, Trigger, Graph).md",
