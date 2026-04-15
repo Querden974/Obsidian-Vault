@@ -3,7 +3,7 @@
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2026-04-15T19:19:24.000Z</lastmod>
+    <lastmod>2026-04-15T19:45:32.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Suivi-Alternance</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
@@ -39,10 +39,10 @@
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/VLSM---D%C3%A9coupage-r%C3%A9seau</loc>
-    <lastmod>2026-04-15T19:19:24.000Z</lastmod>
+    <lastmod>2026-04-15T19:45:32.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/%F0%9F%93%8B-To-Do-List-%E2%80%93-Impl%C3%A9mentation-d%E2%80%99un-serveur-sur-Cisco-Packet-Trace</loc>
-    <lastmod>2026-04-15T19:19:24.000Z</lastmod>
+    <lastmod>2026-04-15T19:45:32.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/%F0%9F%9B%A0%EF%B8%8F-Utilitaires-syst%C3%A8me-indispensables</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
@@ -96,7 +96,7 @@
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Bash/</loc>
-    <lastmod>2026-04-15T19:34:17.074Z</lastmod>
+    <lastmod>2026-04-15T19:45:32.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Bash/%F0%9F%93%A5-Lecture-d%E2%80%99arguments</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
@@ -132,7 +132,7 @@
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Cisco-packet-Tracer/</loc>
-    <lastmod>2026-04-15T19:36:22.191Z</lastmod>
+    <lastmod>2026-04-15T19:45:32.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Cisco-packet-Tracer/Liste-de-commandes</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
@@ -146,6 +146,9 @@
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Fog/Gestion-d'utilisateurs</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Fog/</loc>
+    <lastmod>2026-04-15T19:45:32.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Fog/Mise-en-place-serveur-FOG</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
   </url><url>
@@ -154,6 +157,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Routage/Configurations-Routeurs---Cisco-PT</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Routage/</loc>
+    <lastmod>2026-04-15T19:45:32.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Routage/Synth%C3%A8se---Protocoles-de-Routage-Dynamique</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
@@ -194,6 +200,9 @@
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Powershell/GPO</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Powershell/</loc>
+    <lastmod>2026-04-15T19:45:32.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Powershell/Op%C3%A9rateurs-de-comparaison-PowerShell</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
   </url><url>
@@ -202,6 +211,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Zabbix/Alertes-et-Notifications</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Zabbix/</loc>
+    <lastmod>2026-04-15T19:45:32.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Zabbix/Installation-agent-Zabbix-passif-(Linux)</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
@@ -217,16 +229,4 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Zabbix/Sondes-Personnalis%C3%A9es</loc>
     <lastmod>2026-04-15T19:19:24.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Fog/</loc>
-    <lastmod>2026-04-15T19:32:44.670Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Powershell/</loc>
-    <lastmod>2026-04-15T19:39:03.903Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Routage/</loc>
-    <lastmod>2026-04-15T19:33:24.951Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Zabbix/</loc>
-    <lastmod>2026-04-15T19:33:00.869Z</lastmod>
   </url></urlset>
