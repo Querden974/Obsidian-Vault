@@ -1,0 +1,31 @@
+filters:
+  and:
+    - base == link("_Centre de documents.base")
+properties:
+  file.name:
+    displayName: Nom du document
+  Catégorie:
+    displayName: Catégorie
+  Heure de la dernière modification:
+    displayName: Heure de la dernière modification
+  Dernière modification par:
+    displayName: Dernière modification par
+  Créée par:
+    displayName: Créée par
+  Date de création:
+    displayName: Date de création
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Catégorie
+      - Heure de la dernière modification
+      - Dernière modification par
+      - Créée par
+      - Date de création
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: Dernière modification par
+        direction: DESC

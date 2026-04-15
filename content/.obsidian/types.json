@@ -1,0 +1,15 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Catégorie": "multitext",
+    "Heure de la dernière modification": "datetime",
+    "Dernière modification par": "text",
+    "Créée par": "text",
+    "Date de création": "datetime",
+    "Dernière modification": "datetime",
+    "Vite Guide": "text",
+    "Propriétaire": "multitext"
+  }
+}

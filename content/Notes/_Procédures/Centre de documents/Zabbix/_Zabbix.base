@@ -1,0 +1,8 @@
+views:
+  - type: table
+    name: Tableau
+    filters:
+      and:
+        - '!file.path.startsWith("image")'
+        - file.folder == "Notes/Zabbix"
+        - file.ext != "base"

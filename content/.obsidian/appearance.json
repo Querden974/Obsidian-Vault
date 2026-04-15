@@ -1,0 +1,8 @@
+{
+  "showRibbon": true,
+  "cssTheme": "Blue Topaz",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "obsidian-default-theme"
+  ]
+}
