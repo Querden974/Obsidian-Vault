@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>TSSR - Gautier</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on TSSR - Gautier</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Powershell/</link>
+    <guid>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Powershell/</guid>
+    <description><![CDATA[ PowerShell — Centre de Ressources Présentation PowerShell est un shell en ligne de commande et un langage de script orienté objet développé par Microsoft. ]]></description>
+    <pubDate>Wed, 15 Apr 2026 19:39:03 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Cisco-packet-Tracer/</link>
+    <guid>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Cisco-packet-Tracer/</guid>
+    <description><![CDATA[ Cisco Packet Tracer — Centre de Ressources Présentation Cisco Packet Tracer est un simulateur réseau permettant de concevoir, configurer et dépanner des infrastructures Cisco sans matériel physique. ]]></description>
+    <pubDate>Wed, 15 Apr 2026 19:36:22 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Bash/</link>
+    <guid>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Bash/</guid>
+    <description><![CDATA[ Bash — Centre de Ressources Présentation Bash (Bourne Again SHell) est le shell par défaut sur la plupart des distributions Linux. ]]></description>
+    <pubDate>Wed, 15 Apr 2026 19:34:17 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Routage/</link>
+    <guid>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Routage/</guid>
+    <description><![CDATA[ Routage — Centre de Ressources Présentation Le routage dynamique permet aux routeurs d’échanger automatiquement leurs tables de routage sans configuration manuelle de chaque route. ]]></description>
+    <pubDate>Wed, 15 Apr 2026 19:33:24 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Zabbix/</link>
+    <guid>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Zabbix/</guid>
+    <description><![CDATA[ Zabbix — Centre de Ressources Présentation Zabbix est une solution open-source de supervision réseau et système. ]]></description>
+    <pubDate>Wed, 15 Apr 2026 19:33:00 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Fog/</link>
+    <guid>https://quartz.jzhao.xyz/Notes/_Proc%C3%A9dures/Centre-de-documents/Fog/</guid>
+    <description><![CDATA[ FOG Project — Centre de Ressources Présentation FOG Project est une solution open-source de clonage et de déploiement d’images système via le réseau. ]]></description>
+    <pubDate>Wed, 15 Apr 2026 19:32:44 GMT</pubDate>
+  </item><item>
+    <title>CLAUDE</title>
+    <link>https://quartz.jzhao.xyz/CLAUDE</link>
+    <guid>https://quartz.jzhao.xyz/CLAUDE</guid>
+    <description><![CDATA[ CLAUDE.md This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository. ]]></description>
+    <pubDate>Wed, 15 Apr 2026 19:19:24 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ TSSR — Dashboard Vue d&#039;ensemble Vault de notes de la formation TSSR (Technicien Supérieur Systèmes et Réseaux). ]]></description>
+    <pubDate>Wed, 15 Apr 2026 19:19:24 GMT</pubDate>
+  </item><item>
+    <title>Suivi Alternance</title>
+    <link>https://quartz.jzhao.xyz/Suivi-Alternance</link>
+    <guid>https://quartz.jzhao.xyz/Suivi-Alternance</guid>
+    <description><![CDATA[  IntituléEntrepriseType de candidatureDateStatus de la candidatureRelance?Alternant InformatiqueCICOR AngersOffre Indeed06/04/2026RefuséNonApprentiSCANIASite Officiel11/04/2026EnvoyéNon. ]]></description>
+    <pubDate>Wed, 15 Apr 2026 19:19:24 GMT</pubDate>
+  </item><item>
+    <title>Bases des Réseaux Informatiques</title>
+    <link>https://quartz.jzhao.xyz/Notes/Bases-des-R%C3%A9seaux-Informatiques</link>
+    <guid>https://quartz.jzhao.xyz/Notes/Bases-des-R%C3%A9seaux-Informatiques</guid>
+    <description><![CDATA[ Bases des Réseaux Informatiques 1. ]]></description>
+    <pubDate>Wed, 15 Apr 2026 19:19:24 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
