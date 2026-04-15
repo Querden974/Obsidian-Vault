@@ -25,12 +25,6 @@ base: "[[_Centre de documents.base]]"
 
 ## Configuration & Sécurité de base
 
---- start-multi-column: CiscoBase
-```column-settings
-number of columns: 2
-Column Size: [50%, 50%]
-```
-
 > [!example] Configuration basique
 > ### [[Configuration basique]]
 > Premières commandes à appliquer sur tout équipement Cisco.
@@ -39,8 +33,6 @@ Column Size: [50%, 50%]
 > - Mot de passe enable : `enable secret <mdp>`
 > - Mot de passe console : `line console 0` → `password` → `login`
 > - Sauvegarder : `copy running-config startup-config`
-
---- end-column ---
 
 > [!example] Activer SSH
 > ### [[Activer SSH]]
@@ -53,17 +45,9 @@ Column Size: [50%, 50%]
 > - `username admin secret <mdp>`
 > - `line vty 0 15` → `transport input ssh` → `login local`
 
---- end-multi-column
-
 ---
 
 ## Services réseau
-
---- start-multi-column: CiscoServices
-```column-settings
-number of columns: 2
-Column Size: [50%, 50%]
-```
 
 > [!info] DHCP
 > ### [[DHCP]]
@@ -81,8 +65,6 @@ Column Size: [50%, 50%]
 > - `network` — plage distribuée
 > - `ip dhcp excluded-address` — adresses réservées
 
---- end-column ---
-
 > [!info] VLANs
 > ### [[VLANs]]
 > Segmenter le réseau en réseaux logiques isolés.
@@ -93,8 +75,6 @@ Column Size: [50%, 50%]
 > - Trunk : `switchport mode trunk` → `switchport trunk allowed vlan <liste>`
 > - Téléphonie VoIP : `switchport voice vlan <id>` + `mls qos trust cos`
 > - Supprimer : `no vlan <id>` (réattribuer les ports d'abord)
-
---- end-multi-column
 
 ---
 

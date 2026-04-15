@@ -48,12 +48,6 @@ Date de création: 2026-04-15T13:29:00
 
 ## Images & Déploiement
 
---- start-multi-column: FogImages
-```column-settings
-number of columns: 2
-Column Size: [50%, 50%]
-```
-
 > [!info] Création d'une image Windows
 > ### [[Création d'une image Windows]]
 > Préparer un master Windows avant la capture.
@@ -61,8 +55,6 @@ Column Size: [50%, 50%]
 > - Personnalisation du master (logiciels, mises à jour)
 > - Nettoyage des fichiers système
 > - Désactivation du démarrage rapide
-
---- end-column ---
 
 > [!info] Récapitulatif — Capture et Déploiement
 > ### [[Récapitulatif - Capture et Déploiement]]
@@ -73,8 +65,6 @@ Column Size: [50%, 50%]
 > - Lancer les tâches Capture / Deploy
 > - Déploiement sur groupe de machines
 > - Sysprep avant capture (production)
-
---- end-multi-column
 
 ---
 

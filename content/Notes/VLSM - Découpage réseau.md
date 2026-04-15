@@ -141,4 +141,4 @@ Date de création: 2026-04-15T00:00:00
 > [!seealso] Notes liées
 > - [[Calcul sous-réseau]] — Méthode FLSM (masque fixe), incrément, broadcast
 > - [[Bases des Réseaux Informatiques]] — Rappels OSI, TCP/IP, adressage
-> - [[_Cisco packet Tracer]] — Mise en pratique sur Packet Tracer
+> - [[Notes/_Procédures/Centre de documents/Cisco packet Tracer/index]] — Mise en pratique sur Packet Tracer

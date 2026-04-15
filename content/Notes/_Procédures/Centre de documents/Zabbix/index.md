@@ -23,12 +23,6 @@ Date de création: 2026-04-15T13:32:00
 
 ## Installation & Configuration
 
---- start-multi-column: ZabbixInstall
-```column-settings
-number of columns: 2
-Column Size: [50%, 50%]
-```
-
 > [!example] Serveur
 > ### [[Installation serveur Zabbix]]
 > Installation complète du serveur Zabbix sur Debian avec MariaDB, Nginx et l'interface web.
@@ -37,8 +31,6 @@ Column Size: [50%, 50%]
 > - Base de données MariaDB
 > - Configuration Nginx
 > - Interface web & premier utilisateur
-
---- end-column ---
 
 > [!example] Agent
 > ### [[Installation agent Zabbix passif (Linux)]]
@@ -49,17 +41,9 @@ Column Size: [50%, 50%]
 > - Ouverture pare-feu (port 10050)
 > - Déclaration de l'hôte dans l'UI
 
---- end-multi-column
-
 ---
 
 ## Supervision & Collecte
-
---- start-multi-column: ZabbixSupervision
-```column-settings
-number of columns: 2
-Column Size: [50%, 50%]
-```
 
 > [!info] Protocole SNMP
 > ### [[SNMP Cisco]]
@@ -70,8 +54,6 @@ Column Size: [50%, 50%]
 > - Template SNMP dans Zabbix
 > - Port UDP 161
 
---- end-column ---
-
 > [!info] Métriques personnalisées
 > ### [[Sondes Personnalisées]]
 > Étendre les capacités de l'agent avec des UserParameters.
@@ -80,8 +62,6 @@ Column Size: [50%, 50%]
 > - Scripts de collecte custom
 > - Intégration dans les items Zabbix
 > - Tests avec `zabbix_agentd -t`
-
---- end-multi-column
 
 ---
 

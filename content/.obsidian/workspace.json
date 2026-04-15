@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/_Procédures/Centre de documents/Cisco packet Tracer/VLANs.md",
+                "file": "Notes/_Procédures/Centre de documents/Zabbix/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VLANs"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/_Procédures/Centre de documents/Cisco packet Tracer/VLANs.md",
+                "file": "Notes/_Procédures/Centre de documents/Zabbix/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour VLANs"
+              "title": "Rétrolien pour index"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/_Procédures/Centre de documents/Cisco packet Tracer/VLANs.md",
+                "file": "Notes/_Procédures/Centre de documents/Zabbix/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de VLANs"
+              "title": "Liens sortants de index"
             }
           },
           {
@@ -156,21 +156,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/_Procédures/Centre de documents/Cisco packet Tracer/VLANs.md",
+                "file": "Notes/_Procédures/Centre de documents/Zabbix/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de VLANs"
+              "title": "Plan de index"
+            }
+          },
+          {
+            "id": "4efa890479b47441",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,23 +190,47 @@
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
-      "bases:Créer une nouvelle base": false
+      "bases:Créer une nouvelle base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-importer:Open Importer": false,
+      "markwhen:Create new Markwhen file": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "print:Print note": false
     }
   },
   "active": "80b42943d52a2a01",
   "lastOpenFiles": [
+    "Notes/_Procédures/Centre de documents/Routage/index.md",
+    "Notes/_Procédures/_Centre de documents.base",
+    "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281943904",
+    "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281936005",
+    "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281932831",
+    "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281929052",
+    "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281926466",
+    "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281923723",
+    "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281919855",
+    "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281908874",
+    "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281905810",
+    "Notes/_Procédures/Centre de documents/Mise en place serveur DHCP.md",
+    "Notes/_Procédures/Centre de documents/Administration Active Directory.md",
+    "Notes/_Procédures/Centre de documents/Fog/index.md",
+    "Notes/_Procédures/Centre de documents/Powershell/index.md",
+    "Notes/_Procédures/Centre de documents/Cisco packet Tracer/index.md",
+    "Notes/_Procédures/Centre de documents/Bash/index.md",
+    "Notes/_Procédures/Centre de documents/Cisco packet Tracer/VLANs.md",
     "Notes/_Procédures/Centre de documents/Cisco packet Tracer/Liste de commandes.md",
     "Notes/_Procédures/Centre de documents/Cisco packet Tracer/DHCP.md",
     "Notes/_Procédures/Centre de documents/Cisco packet Tracer/Configuration basique.md",
     "Notes/_Procédures/Centre de documents/Cisco packet Tracer/Activer SSH.md",
-    "Notes/_Procédures/Centre de documents/Cisco packet Tracer/_Cisco packet Tracer.md",
     "index.md",
     "_Notes.md",
     "CLAUDE.md",
     "Notes/DEV/JavaScript/Basics/Exercices Algo/Somme Tableau.md",
     "Notes/DEV/JavaScript/Basics/Exercices Algo/Exercices Algo.md",
-    "Notes/_Procédures/Centre de documents/Zabbix/_Zabbix.md",
-    "Notes/_Procédures/Centre de documents/Zabbix/_Zabbix.base",
+    "Notes/_Procédures/Centre de documents/Zabbix/index.md",
     "Notes/_Procédures/Centre de documents/Zabbix/SNMP Cisco.md",
     "Notes/_Procédures/Centre de documents/Zabbix/Sondes Personnalisées.md",
     "Notes/_Procédures/Centre de documents/Zabbix/Prototypes LLD (Item, Trigger, Graph).md",
@@ -205,22 +239,6 @@
     "Notes/_Procédures/Centre de documents/Zabbix/Alertes et Notifications.md",
     "Notes/_Procédures/Centre de documents/Routage/🦽Routage - RIP.md",
     "Notes/_Procédures/Centre de documents/Routage/🚦Routage.md",
-    "Notes/_Procédures/Centre de documents/Routage/🚗Routage - EIGRP.md",
-    "Notes/_Procédures/Centre de documents/Routage/🏍Routage - OSPF.md",
-    "Notes/_Procédures/Centre de documents/Routage/_Routage.md",
-    "Notes/_Procédures/Centre de documents/Routage/TP 3 Routage dynamique.md",
-    "Notes/_Procédures/Centre de documents/Routage/Synthèse - Protocoles de Routage Dynamique.md",
-    "Notes/_Procédures/Centre de documents/Routage/Configurations Routeurs - Cisco PT.md",
-    "Notes/_Procédures/Centre de documents/Powershell/Serveur DHCP (Core).md",
-    "Notes/DEV/JavaScript/Basics/Exercices Algo",
-    "Notes/_Procédures/Centre de documents/Zabbix",
-    "Notes/_Procédures/Centre de documents/Routage",
-    "Notes/_Procédures/Centre de documents/Powershell",
-    "Notes/_Procédures/Centre de documents/Fog",
-    "Notes/_Procédures/Centre de documents/Cisco packet Tracer",
-    "Notes/_Procédures/Centre de documents/Bash",
-    "Notes/DEV/PHP/Laravel",
-    "Notes/DEV/JavaScript/TypeScript",
     "image/image/_Zabbix-1775648009632.jpeg",
     "image/image/_Zabbix-1775648064494.jpeg",
     "image/image/_Zabbix-1775647823842.jpeg",

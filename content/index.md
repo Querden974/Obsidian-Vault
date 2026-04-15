@@ -25,7 +25,7 @@ Column Size: [50%, 50%]
 > [!example] Active Directory & PowerShell
 >
 > - [[🧑‍💼 Active Directory (Niveau 1 et 2)]] — Concepts AD, utilisateurs, groupes, OUs
-> - [[Powershell]] — Scripts, AD, GPO, ACL, mode Core
+> - [[Notes/_Procédures/Centre de documents/Powershell/index]] — Scripts, AD, GPO, ACL, mode Core
 
 --- end-column ---
 
@@ -48,7 +48,7 @@ Column Size: [33%, 33%, 33%]
 
 > [!info] Shell Linux
 >
-> - [[_Bash]] — Variables, conditions, boucles, fonctions, trap
+> - [[Notes/_Procédures/Centre de documents/Bash/index]] — Variables, conditions, boucles, fonctions, trap
 
 --- end-column ---
 
@@ -93,7 +93,7 @@ Column Size: [33%, 33%, 33%]
 > - [[Paramétrer les VLAN]] — Création, accès, trunk
 > - [[Utiliser les VLAN pour réduire les domaines de diffusion]]
 > - [[Routage Inter-Vlan]] — Router-on-a-stick, SVI
-> - [[_Cisco packet Tracer]] — Config IOS, DHCP, SSH, VLANs
+> - [[Notes/_Procédures/Centre de documents/Cisco packet Tracer/index]] — Config IOS, DHCP, SSH, VLANs
 
 --- end-column ---
 
@@ -125,7 +125,7 @@ Column Size: [33%, 33%, 33%]
 
 > [!warning] Déploiement
 >
-> - [[_Fog]] — Clonage réseau, PXE, images Windows
+> - [[Notes/_Procédures/Centre de documents/Fog/index]] — Clonage réseau, PXE, images Windows
 
 --- end-column ---
 
@@ -140,7 +140,7 @@ Column Size: [33%, 33%, 33%]
 ## Supervision
 
 > [!info] Zabbix
-> - [[_Zabbix]] — Supervision réseau et système, alertes, SNMP, LLD
+> - [[Notes/_Procédures/Centre de documents/Zabbix/index]] — Supervision réseau et système, alertes, SNMP, LLD
 >   - [[Installation serveur Zabbix]] · [[Installation agent Zabbix passif (Linux)]]
 >   - [[SNMP Cisco]] · [[Sondes Personnalisées]] · [[Alertes et Notifications]]
 

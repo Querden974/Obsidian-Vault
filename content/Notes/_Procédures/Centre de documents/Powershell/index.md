@@ -20,12 +20,6 @@ Date de création: 2026-04-15T00:00:00
 
 ## Fondamentaux du langage
 
---- start-multi-column: PSFondamentaux
-```column-settings
-number of columns: 2
-Column Size: [50%, 50%]
-```
-
 > [!example] Bases
 > ### [[Notes/_Procédures/Centre de documents/Powershell/Basics]]
 > Syntaxe essentielle pour écrire ses premiers scripts PowerShell.
@@ -36,8 +30,6 @@ Column Size: [50%, 50%]
 > - Fonctions avec `param()`
 > - Classes et objets (.NET)
 > - Gestion d'erreurs : `try / catch`
-
---- end-column ---
 
 > [!example] Opérateurs de comparaison
 > ### [[Opérateurs de comparaison PowerShell]]
@@ -51,8 +43,6 @@ Column Size: [50%, 50%]
 > | `-and` / `-or` / `-not` | Logique booléenne |
 > | `-contains` / `-in` | Appartenance à une collection |
 > | `-is` / `-isnot` | Test de type .NET |
-
---- end-multi-column
 
 ---
 
@@ -74,12 +64,6 @@ Column Size: [50%, 50%]
 
 ## Active Directory & Sécurité
 
---- start-multi-column: PSActiveDirectory
-```column-settings
-number of columns: 3
-Column Size: [33%, 33%, 33%]
-```
-
 > [!note] Active Directory
 > ### [[Active Directory]]
 > Administrer les objets AD (utilisateurs, groupes, ordinateurs).
@@ -92,8 +76,6 @@ Column Size: [33%, 33%, 33%]
 > ```powershell
 > Import-Module ActiveDirectory
 > ```
-
---- end-column ---
 
 > [!note] GPO
 > ### [[GPO]]
@@ -109,8 +91,6 @@ Column Size: [33%, 33%, 33%]
 > Import-Module GroupPolicy
 > ```
 
---- end-column ---
-
 > [!note] ACL — AGDLP
 > ### [[ACL (AGDLP)]]
 > Structurer les droits sur les ressources selon le modèle AGDLP.
@@ -121,17 +101,9 @@ Column Size: [33%, 33%, 33%]
 > - Imbriquer les groupes
 > - Appliquer les ACL avec `Set-Acl`
 
---- end-multi-column
-
 ---
 
 ## Administration en mode Core (sans GUI)
-
---- start-multi-column: PSCore
-```column-settings
-number of columns: 2
-Column Size: [50%, 50%]
-```
 
 > [!warning] Active Directory (Core)
 > ### [[Active directory (Core)]]
@@ -142,8 +114,6 @@ Column Size: [50%, 50%]
 > - Définition du mot de passe DSRM
 > - `Get-ADDomain` / `Get-ADDomainController`
 
---- end-column ---
-
 > [!warning] Serveur DHCP (Core)
 > ### [[Serveur DHCP (Core)]]
 > Déployer un serveur DHCP complet en ligne de commande.
@@ -152,8 +122,6 @@ Column Size: [50%, 50%]
 > - Options : passerelle (3), DNS (6), suffixe DNS (15)
 > - `Set-DhcpServerv4Scope` — activer l'étendue
 > - `Get-DhcpServerv4Scope` — vérification
-
---- end-multi-column
 
 ---
 

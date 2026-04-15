@@ -26,12 +26,6 @@ base: "[[_Centre de documents.base]]"
 
 ## Fondamentaux
 
---- start-multi-column: BashFondamentaux
-```column-settings
-number of columns: 3
-Column Size: [33%, 33%, 33%]
-```
-
 > [!example] Bases
 > ### [[📦 Basics]]
 > Variables, tableaux et manipulation de chaînes.
@@ -42,20 +36,15 @@ Column Size: [33%, 33%, 33%]
 > - Manipulation de chaînes : `${name%.txt}`, `${#name}`
 > - Tableaux : `arr=("a" "b")` → `${arr[@]}`
 
---- end-column ---
-
 > [!example] Conditions
 > ### [[🔀 Conditions]]
 > Tests et branchements conditionnels.
 >
 > - `if [[ ... ]]; then ... elif ... else ... fi`
 > - Toujours utiliser `[[ ]]` plutôt que `[ ]`
-> - Comparaisons chaînes : `=`, `!=`, `-z`, `-n`, `=~` (regex)
+> - Comparaisons chaînes : `=`
 > - Comparaisons entiers : `-eq`, `-ne`, `-lt`, `-le`, `-gt`, `-ge`
-> - Tests fichiers : `-f`, `-d`, `-r`, `-w`, `-x`, `-e`
 > - Logique : `&&`, `||`, `!`
-
---- end-column ---
 
 > [!example] Boucles
 > ### [[🔁 Boucles]]
@@ -68,17 +57,9 @@ Column Size: [33%, 33%, 33%]
 > until ping -c1 host; do sleep 1; done
 > ```
 
---- end-multi-column
-
 ---
 
 ## Structures de contrôle
-
---- start-multi-column: BashControle
-```column-settings
-number of columns: 2
-Column Size: [50%, 50%]
-```
 
 > [!info] Case (switch)
 > ### [[🧩 Case (switch)]]
@@ -91,8 +72,6 @@ Column Size: [50%, 50%]
 >   *)     echo "Usage: start|stop" ;;
 > esac
 > ```
-
---- end-column ---
 
 > [!info] Fonctions
 > ### [[🧱 Fonctions]]
@@ -110,17 +89,9 @@ Column Size: [50%, 50%]
 > - `return` pour un code de retour (0–255)
 > - `echo` + `$()` pour retourner une valeur string
 
---- end-multi-column
-
 ---
 
 ## Techniques avancées
-
---- start-multi-column: BashAvance
-```column-settings
-number of columns: 2
-Column Size: [50%, 50%]
-```
 
 > [!warning] Gestion d'erreurs — trap
 > ### [[🧪 Try - Catch en BASH (avec trap)]]
@@ -138,8 +109,6 @@ Column Size: [50%, 50%]
 > fi
 > ```
 
---- end-column ---
-
 > [!warning] Substitution de commande
 > ### [[🧵 Substitution de commande]]
 > Capturer la sortie d'une commande dans une variable.
@@ -151,8 +120,6 @@ Column Size: [50%, 50%]
 > ```
 >
 > Toujours préférer `$(...)` à l'ancienne syntaxe avec backticks.
-
---- end-multi-column
 
 ---
 

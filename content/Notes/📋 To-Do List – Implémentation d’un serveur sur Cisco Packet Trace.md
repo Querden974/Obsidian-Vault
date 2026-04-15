@@ -1,7 +1,7 @@
 ---
 
 ---
-### 1️⃣ **Préparation & Planification**
+### 1️.**Préparation & Planification**
 
 1. **Définir le réseau**
     - Nombre de clients (ex : 5-10)
@@ -20,7 +20,7 @@
 
 ---
 
-### 2️⃣ **Implémentation physique dans Packet Tracer**
+### 2️.**Implémentation physique dans Packet Tracer**
 
 4. Placer tous les équipements dans la zone de travail
 5. Connecter avec les bons câbles :
@@ -30,7 +30,7 @@
 
 ---
 
-### 3️⃣ **Configuration du routeur**
+### 3️. **Configuration du routeur**
 
 7. **Configurer les interfaces**
     - Exemple : `FastEthernet0/0` : IP 192.168.1.1 / 255.255.255.0
@@ -51,7 +51,7 @@ Router(config-line)# exit
 
 ---
 
-### 4️⃣ **Configuration du serveur**
+### 4️. **Configuration du serveur**
 
 10. **Adresse IP statique**
     - IP : 192.168.1.2 / 255.255.255.0
@@ -73,7 +73,7 @@ Router(config-line)# exit
 
 ---
 
-### 5️⃣ **Configuration des clients**
+### 5️. **Configuration des clients**
 
 13. **DHCP ou IP statique**
     - Si DHCP actif → mode “DHCP” dans l’onglet “IP Configuration”
@@ -86,7 +86,7 @@ Router(config-line)# exit
 
 ---
 
-### 6️⃣ **Vérifications & Dépannage**
+### 6️. **Vérifications & Dépannage**
 
 16. **Test réseau global**
     - `ping` et `tracert` entre toutes les machines
@@ -104,7 +104,7 @@ Router(config-line)# exit
 
 ---
 
-### 7️⃣ **Documentation**
+### 7️. **Documentation**
 
 22. **Schéma final du réseau**
 23. **Tableau des IP**
@@ -131,7 +131,7 @@ Router(config-line)# exit
 > Dir-Exam(config-line)#exit
 > ```
 > 
-> > [!tip] 💡
+> > [!tip] 
 > > **VTY** correspond aux **interfaces virtuelles** pour l’accès à distance. Le fait de limiter les connexions sur les lignes `vty`  de 0 à 15 permet d’**empêcher** les connexions **non SSH** (telles que Telnet), et **limite** le commutateur à n’accepter que les **connexions SSH**.
 
 > [!note]+ ## Configuration VLAN sur un commutateur (Switch)
@@ -146,10 +146,10 @@ Router(config-line)# exit
 > Dir-Exam(config-if)#no shutdown
 > ```
 > 
-> > [!info] ℹ️
+> > [!info] ℹ
 > > Le SVI pour le VLAN 100 n'apparaîtra pas comme “up/up” jusqu’à ce que le VLAN 100 soit **créé**, et qu’un appareil soit **connecté** à un port de commutation associé au VLAN 100.
 > 
-> > [!warning] ⚠️
+> > [!warning] 
 > > La **configuration IPv6** des commutateurs 2960 dans Cisco Packet Tracer **n’est pas activée**. Il vous faut entrer la commande`**sdm prefer dual-ipv4-and-ipv6 default**`dans le mode de configuration global, et retourner dans le mode de configuration privilégié pour faire un`**reload**`. Cette commande activera la fonctionnalité **IPv6** de tous les commutateurs présents dans le schéma réseau sous Cisco Packet Tracer.
 
 > [!note]+ ## Commandes CLI

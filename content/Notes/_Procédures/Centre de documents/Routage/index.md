@@ -22,12 +22,6 @@ Dernière modification par: Gautier RAYEROUX
 
 ## Protocoles de routage dynamique
 
---- start-multi-column: RoutageProtocoles
-```column-settings
-number of columns: 3
-Column Size: [33%, 33%, 33%]
-```
-
 > [!example] RIP
 > ### [[🦽Routage - RIP]]
 > Protocole **vecteur de distance** — le plus simple.
@@ -45,8 +39,6 @@ Column Size: [33%, 33%, 33%]
 >  network <réseau>
 > ```
 
---- end-column ---
-
 > [!example] EIGRP
 > ### [[🚗Routage - EIGRP]]
 > Protocole **hybride** (vecteur de distance avancé) — Cisco.
@@ -63,8 +55,6 @@ Column Size: [33%, 33%, 33%]
 >  network <réseau> <wildcard>
 > ```
 
---- end-column ---
-
 > [!example] OSPF
 > ### [[🏍Routage - OSPF]]
 > Protocole **état de liens** — standard ouvert.
@@ -79,8 +69,6 @@ Column Size: [33%, 33%, 33%]
 > router ospf <ID>
 >  network <réseau> <wildcard> area 0
 > ```
-
---- end-multi-column
 
 ---
 
@@ -103,12 +91,6 @@ Column Size: [33%, 33%, 33%]
 
 ## Pratique & Configuration
 
---- start-multi-column: RoutagePratique
-```column-settings
-number of columns: 2
-Column Size: [50%, 50%]
-```
-
 > [!note] Configurations de référence
 > ### [[Configurations Routeurs - Cisco PT]]
 > Configurations complètes à appliquer sur les routeurs dans Cisco Packet Tracer.
@@ -117,8 +99,6 @@ Column Size: [50%, 50%]
 > - Activation des protocoles par routeur
 > - Commandes `enable` / `config t`
 
---- end-column ---
-
 > [!note] Travaux Pratiques
 > ### [[TP 3 Routage dynamique]]
 > TP combinant RIP, OSPF et EIGRP sur une topologie multi-zones.
@@ -126,8 +106,6 @@ Column Size: [50%, 50%]
 > 1. Mise en place RIP + OSPF + EIGRP
 > 2. Redistribution de routes entre protocoles
 > 3. Tests de connectivité inter-zones
-
---- end-multi-column
 
 ---
 
