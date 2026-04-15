@@ -21,7 +21,7 @@ Date de création: 2026-04-15T00:00:00
 ## Fondamentaux du langage
 
 > [!example] Bases
-> ### [[Notes/_Procédures/Centre de documents/Powershell/Basics]]
+> ### [[Basics]]
 > Syntaxe essentielle pour écrire ses premiers scripts PowerShell.
 >
 > - Variables et types (`$var`, `[int]`, `[string]`…)
@@ -157,7 +157,7 @@ Date de création: 2026-04-15T00:00:00
 ---
 
 > [!tip] Progression recommandée
-> 1. Maîtriser la syntaxe de base → [[Notes/_Procédures/Centre de documents/Powershell/Basics]]
+> 1. Maîtriser la syntaxe de base → [[Basics]]
 > 2. Comprendre les opérateurs → [[Opérateurs de comparaison PowerShell]]
 > 3. Explorer le pipeline et les modules → [[Advanced]]
 > 4. Administrer Active Directory → [[Active Directory]] et [[GPO]]

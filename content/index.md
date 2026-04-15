@@ -18,7 +18,7 @@ tags:
 > [!example] Active Directory & PowerShell
 >
 > - [[🧑‍💼 Active Directory (Niveau 1 et 2)]] — Concepts AD, utilisateurs, groupes, OUs
-> - [[Notes/_Procédures/Centre de documents/Powershell/index]] — Scripts, AD, GPO, ACL, mode Core
+> - [[_Procédures/Centre de documents/Powershell/index]] — Scripts, AD, GPO, ACL, mode Core
 
 > [!example] Outils & Références Windows
 >
@@ -31,7 +31,7 @@ tags:
 
 > [!info] Shell Linux
 >
-> - [[Notes/_Procédures/Centre de documents/Bash/index]] — Variables, conditions, boucles, fonctions, trap
+> - [[_Procédures/Centre de documents/Bash/index]] — Variables, conditions, boucles, fonctions, trap
 
 
 > [!info] Outils Dev
@@ -54,7 +54,7 @@ tags:
 > - [[Paramétrer les VLAN]] — Création, accès, trunk
 > - [[Utiliser les VLAN pour réduire les domaines de diffusion]]
 > - [[Routage Inter-Vlan]] — Router-on-a-stick, SVI
-> - [[Notes/_Procédures/Centre de documents/Cisco packet Tracer/index]] — Config IOS, DHCP, SSH, VLANs
+> - [[_Procédures/Centre de documents/Cisco packet Tracer/index]] — Config IOS, DHCP, SSH, VLANs
 
 > [!note] Routage dynamique
 >
@@ -74,7 +74,7 @@ tags:
 
 > [!warning] Déploiement
 >
-> - [[Notes/_Procédures/Centre de documents/Fog/index]] — Clonage réseau, PXE, images Windows
+> - [[_Procédures/Centre de documents/Fog/index]] — Clonage réseau, PXE, images Windows
 
 > [!warning] Automatisation
 >
@@ -85,7 +85,7 @@ tags:
 ## Supervision
 
 > [!info] Zabbix
-> - [[Notes/_Procédures/Centre de documents/Zabbix/index]] — Supervision réseau et système, alertes, SNMP, LLD
+> - [[_Procédures/Centre de documents/Zabbix/index]] — Supervision réseau et système, alertes, SNMP, LLD
 >   - [[Installation serveur Zabbix]] · [[Installation agent Zabbix passif (Linux)]]
 >   - [[SNMP Cisco]] · [[Sondes Personnalisées]] · [[Alertes et Notifications]]
 
