@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "TSSR - Gautier",
+    pageTitle: "TSSR - Base de connaissance",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
