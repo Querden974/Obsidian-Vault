@@ -7,23 +7,27 @@ Catégorie:
 
 # Passer la machine debian en IP statique
 
-Sudo nano /etc/network/interfaces
+```sh
+sudo nano /etc/network/interfaces
+```
 
 ![SAN Debian12 2](<SAN Debian12 2.png>)
 
 # Vérifier la présence de iscsi
 
+```sh
 dpkg -l | grep targetcli
-
 dpkg -l | grep open-iscsi
+```
 
 Si aucun retour, ils ne sont pas installés.
 
 # Installer iscsi
 
+```sh
 apt update
-
 apt install -y targetcli-fb open-iscsi
+```
 
 Gestionnaire de paquet debian, outil standard pour installer des logiciels.
 
@@ -39,13 +43,17 @@ ATTENTION le open-iscsi, et utile sur le serveur SAN dans le cadre d’un lab. D
 
 ## Vérifier le status du service
 
+```sh
 sudo systemctl status rtslib-fb-targetctl
+```
 
 ![SAN Debian12 2](<SAN Debian12 2 1.png>)
 
 ## Identifier le SAN
 
+```sh
 lsblk
+```
 
 ![SAN Debian12 2](<SAN Debian12 2 2.png>)
 
@@ -57,7 +65,9 @@ Nous devons ajouter un nouveau disque :
 
 # Configuration SAN
 
+```sh
 sudo targetcli
+```
 
 ![SAN Debian12 2](<SAN Debian12 2 4.png>)
 
@@ -65,13 +75,17 @@ Message d’alerte normale, il indique que le fichier des préférences n’exis
 
 ## Vérification fonctionnement de shell
 
+```targetcli
 /> ls
+```
 
 ![SAN Debian12 2](<SAN Debian12 2 5.png>)
 
 ## Création du backstore (disque physique pour le SAN)
 
+```targetcli
 /backstores/block create name=disk1 dev=/dev/sdb
+```
 
 Emplacement où sont stockés les disques exposés.
 
@@ -87,21 +101,22 @@ Après modification :
 
 Création point d’accès réseau
 
+```targetcli
 /iscsi create iqn.2026-02.SAN.local:diskSAN
+```
 
-iqn.2026-02.SAN.local :diskSAN identifiant unique, convention iSCSI
-
-année/mois, convention iSCSI
-
-domaine
-
-nom du target
+- `iqn.2026-02.SAN.local :diskSAN` identifiant unique, convention iSCSI
+- année/mois, convention iSCSI
+- domaine
+- nom du target
 
 ![SAN Debian12 2](<SAN Debian12 2 8.png>)
 
 # Création LUN pour lier disque dur et target
 
+```targetcli
 /iscsi/iqn.2026-02.san.local:disksan/tpg1/luns create /backstores/block/diskSAN
+```
 
 ![SAN Debian12 2](<SAN Debian12 2 9.png>)
 
@@ -115,19 +130,22 @@ A ce stade la configuration ressemble à ça :
 
 # Installation client iSCSI sur machine cliente
 
-Sudo apt update
-
-Sudo apt install -y open-iscsi
+```sh
+sudo apt update
+sudo apt install -y open-iscsi
+```
 
 # Découvrir le target sur le serveur SAN
 
-Ici 192.168.199.100 est l’adresse IP du serveur san. Sur la machine cliente :
+Ici `192.168.199.100` est l’adresse IP du serveur san. Sur la machine cliente :
 
+```sh
 sudo iscsiadm -m discovery -t sendtargets -p 192.168.199.100
+```
 
 outil en ligne de commande pour gérer le client iSCSI
 
-mode de fonctionnement « discovery » pour découvrir les targets iSCSI sur un serveur.
+mode de fonctionnement `discovery` pour découvrir les targets iSCSI sur un serveur.
 
 Type de découverte dédiée aux targets.
 
@@ -139,7 +157,9 @@ Adresse IP du serveur SAN.
 
 ## Se connecter au SAN
 
+```sh
 sudo iscsiadm -m node -l
+```
 
 ![SAN Debian12 2](<SAN Debian12 2 13.png>)
 
@@ -159,11 +179,15 @@ Test :
 
 ### Dans le serveur SAN
 
-Targetcli
+```sh
+targetcli
+```
 
 ![SAN Debian12 2](<SAN Debian12 2 17.png>)
 
+```targetcli
 /iscsi/iqn.2026-02.san.local:disksan/tpg1
+```
 
 Solution possible depuis le serveur SAN
 
@@ -183,7 +207,9 @@ Saveconfig
 
 #### Ajout de l’utilisateur dans les ACL
 
+```targetcli
 /iscsi/iqn.2026-02.san.local:disksan/tpg1/acls create iqn.1993-08.org.debian:01:9349b1adda55
+```
 
 (Pour retrouver l’IQN du client : _cat /etc/iscsi/initiatorname.iscsi_ )
 
@@ -210,15 +236,19 @@ lsblk
 
 #### Formater le disque dur
 
+```sh
 sudo mkfs.ext4 /dev/sdb
+```
 
 ![SAN Debian12 2](<SAN Debian12 2 26.png>)
 
 #### Créer un point de montage
 
+```sh
 sudo mkdir -p /mnt/iscsi
+```
 
-« make directory » créer un dossier
+`make directory` créer un dossier
 
 Créer tout les dossiers parents nécessaires, s’ils existent déjà, empêche de renvoyer une erreur
 
@@ -228,13 +258,17 @@ Chemin complet du dossier
 
 #### Monter le disque
 
+```sh
 sudo mount /dev/sdb1 /mnt/iscsi
+```
 
 ![SAN Debian12 2](<SAN Debian12 2 28.png>)
 
 #### Vérification
 
+```sh
 df -h
+```
 
 ![SAN Debian12 2](<SAN Debian12 2 29.png>)
 
@@ -242,4 +276,4 @@ df -h
 
 Dans un projet de SAN avec un seul espace de stockage réparti sur plusieurs disques, nous devons créer un espace logique côté serveur SAN avant d’exposer le LUN.
 
-Pour qu’un dossier placé dans le SAN par le client 1 soit visible par le client 2, il faut utiliser un système de fichiers « cluster-aware ».
+Pour qu’un dossier placé dans le SAN par le client 1 soit visible par le client 2, il faut utiliser un système de fichiers `cluster-aware`.

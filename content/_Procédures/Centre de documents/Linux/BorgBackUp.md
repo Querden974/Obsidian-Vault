@@ -12,9 +12,10 @@ Prérequis : avoir une machine sous Debian (ici Debian 12)
 
 Dans le terminal
 
+``` sh
 sudo apt update
-
 sudo apt install borgbackup -y
+```
 
 ![BorgBackUp](<BorgBackUp.png>)
 
@@ -28,6 +29,8 @@ sudo apt install borgbackup -y
 
 # IP statique
 
-Sudo nano /etc/network/interfaces
+```sh
+sudo nano /etc/network/interfaces
+```
 
 ![BorgBackUp](<BorgBackUp 3.png>)

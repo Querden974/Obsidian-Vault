@@ -8,7 +8,8 @@ Lancement de l’installation :
 
 ![Debian_12_Core_Installation](<Debian_12_Core_Installation.png>)
 
-Choix du langage :![Debian_12_Core_Installation](<Debian_12_Core_Installation 1.png>)
+Choix du langage :
+![Debian_12_Core_Installation](<Debian_12_Core_Installation 1.png>)
 
 Choix du pays :
 

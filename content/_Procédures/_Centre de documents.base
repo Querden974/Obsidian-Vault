@@ -17,6 +17,9 @@ properties:
 views:
   - type: table
     name: Table View
+    filters:
+      or:
+        - file.name != "index"
     order:
       - file.name
       - Catégorie

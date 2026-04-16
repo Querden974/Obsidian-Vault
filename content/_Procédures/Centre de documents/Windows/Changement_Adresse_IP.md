@@ -19,8 +19,8 @@ Une fois vérification effectuée :
 
 ![Changement_Adresse_IP](<Changement_Adresse_IP.png>)
 
-- « Ethernet » : click droit -> propriété
-- Protocole Interne Version 4 -> propriété
-- ![Changement_Adresse_IP](<Changement_Adresse_IP 1.png>)
+- « Ethernet » :` click droit -> propriété`
+- `Protocole Interne Version 4 -> propriété`
+ ![Changement_Adresse_IP](<Changement_Adresse_IP 1.png>)
 - Changer IP et DNS
-- ![Changement_Adresse_IP](<Changement_Adresse_IP 2.png>)
+ ![Changement_Adresse_IP](<Changement_Adresse_IP 2.png>)

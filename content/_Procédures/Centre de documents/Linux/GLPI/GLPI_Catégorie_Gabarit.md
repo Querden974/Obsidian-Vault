@@ -1,9 +1,8 @@
 ---
-
 base: "[[_Centre de documents.base]]"
-
 Créée par: Maxime COURBOULIN
-
+Catégorie:
+  - Linux
 ---
 
 # 1 Ajouter une catégorie

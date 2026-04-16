@@ -6,9 +6,9 @@ Catégorie:
 ---
 Prérequis à la mise en place de la procédure :
 
-Niveau fonctionnel de la forêt **Windows Server 2008 R2 ou supérieur**
+Niveau fonctionnel de la forêt `**Windows Server 2008 R2 ou supérieur**`
 
-Droits **Enterprise Admin**
+Droits `**Enterprise Admin**`
 
 L’activation est **irréversible**, on ne peut pas désactiver la corbeille après.
 

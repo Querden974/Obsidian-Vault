@@ -12,13 +12,13 @@ Installation :
 
 ![Inst_WinSer_2019](<Inst_WinSer_2019.png>)
 
-**1** Version sans interface graphique, permet un nombre limité de machines virtuelles et qui possède une version d’évaluation.
+1.  Version sans interface graphique, permet un nombre limité de machines virtuelles et qui possède une version d’évaluation.
 
-**2** Version avec interface graphique, permet un nombre limité de machines virtuelles et qui possède une version d’évaluation.
+2.  Version avec interface graphique, permet un nombre limité de machines virtuelles et qui possède une version d’évaluation.
 
-**3** Version sans interface graphique, sans limite de machines virtuelles et qui ne possède pas une version d’évaluation.
+3.  Version sans interface graphique, sans limite de machines virtuelles et qui ne possède pas une version d’évaluation.
 
-**4** Version sans interface graphique, sans limite de machines virtuelles et qui ne possède pas une version d’évaluation.
+4.  Version sans interface graphique, sans limite de machines virtuelles et qui ne possède pas une version d’évaluation.
 
 **Suivant :**
 
