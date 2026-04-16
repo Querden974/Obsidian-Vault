@@ -1,6 +1,8 @@
 ---
 base: "[[_Centre de documents.base]]"
 Créée par: Maxime COURBOULIN
+Catégorie:
+  - Windows
 ---
 Prérequis à la mise en place de la procédure :
 
@@ -12,19 +14,19 @@ L’activation est **irréversible**, on ne peut pas désactiver la corbeille ap
 
 Ouvrir le Centre d’administration Active Directory :
 
-![AD Corbeille](<Attachments/AD%20Corbeille.png>)
+![AD Corbeille](<AD Corbeille.png>)
 
-![AD Corbeille](<Attachments/AD%20Corbeille%201.png>)
+![AD Corbeille](<AD Corbeille 1.png>)
 
-![AD Corbeille](<Attachments/AD%20Corbeille%202.png>)
+![AD Corbeille](<AD Corbeille 2.png>)
 
-![AD Corbeille](<Attachments/AD%20Corbeille%203.png>)
+![AD Corbeille](<AD Corbeille 3.png>)
 
 Redémarrer le Centre d’administration Active Directory.
 
 Test Powershell bonne activation de la corbeille :
 
-![AD Corbeille](<Attachments/AD%20Corbeille%204.png>)
+![AD Corbeille](<AD Corbeille 4.png>)
 
 `Get-ADOptionalFeature -Filter 'Name -like "Recycle Bin Feature"' | ft Name, EnabledScopes
 `

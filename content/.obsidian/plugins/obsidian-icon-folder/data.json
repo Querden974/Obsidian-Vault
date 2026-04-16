@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiBorgbackup",
+      "SiDebian",
+      "SiWindowsxp",
       "LiNetwork",
-      "SiGnubash",
-      "SiLinux",
-      "SiWindows10",
-      "LiPen"
+      "SiGnubash"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,7 +37,6 @@
   "_Procédures/Centre de documents": "SiBookstack",
   "_Procédures/Centre de documents/Ansible.md": "SiAnsible",
   "_Procédures/Centre de documents/Connexion au bureau à distance.md": "LiMapPinHouse",
-  "_Procédures/Centre de documents/Fog": "CuFOGProjectLogo",
   "_Procédures/Centre de documents/Installer une imprimante réseau.md": "LiPrinter",
   "_Procédures/Centre de documents/Mise en place d'une machine virtuelle.md": "SiVmware",
   "_Procédures/Centre de documents/Powershell": "SiPowershell",
@@ -58,5 +57,9 @@
   "_Procédures/Centre de documents/Linux/GLPI/Installer un serveur GLPI sous Ubuntu.md": "CuGlpi",
   "_Procédures/Centre de documents/Regex.md": "LiRegex",
   "_Procédures/Centre de documents/Bash": "SiGnubash",
-  "_Procédures/Centre de documents/Cisco packet Tracer": "LiNetwork"
+  "_Procédures/Centre de documents/Cisco packet Tracer": "LiNetwork",
+  "_Procédures/Centre de documents/Windows": "SiWindowsxp",
+  "_Procédures/Centre de documents/Sauvegarde et Deploiement/Fog": "CuFOGProjectLogo",
+  "_Procédures/Centre de documents/Linux/Procédure projet SAN BORG CLIENT afpa.md": "SiBorgbackup",
+  "_Procédures/Centre de documents/Linux/Debian_12_Core_Installation.md": "SiDebian"
 }

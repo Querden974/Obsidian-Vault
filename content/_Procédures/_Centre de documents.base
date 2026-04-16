@@ -25,6 +25,8 @@ views:
       - Créée par
       - Date de création
     sort:
+      - property: Créée par
+        direction: DESC
       - property: file.name
         direction: ASC
       - property: Dernière modification par

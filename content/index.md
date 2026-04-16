@@ -74,7 +74,7 @@ tags:
 
 > [!warning] Déploiement
 >
-> - [[_Procédures/Centre de documents/Fog/index]] — Clonage réseau, PXE, images Windows
+> - [[_Procédures/Centre de documents/Sauvegarde et Deploiement/Fog/index]] — Clonage réseau, PXE, images Windows
 
 > [!warning] Automatisation
 >
