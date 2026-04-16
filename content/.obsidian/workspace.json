@@ -11,14 +11,14 @@
             "id": "80b42943d52a2a01",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "🧠 Glossaire.md",
-                "mode": "preview",
-                "source": false
+                "aFile": "content/_Procédures/Centre de documents/Windows Serveur/WDS/Capture d'une image master avec WDS.md",
+                "bFile": "content/_Procédures/Centre de documents/Windows Serveur/WDS/Capture d'une image master avec WDS.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "🧠 Glossaire"
+              "icon": "diff",
+              "title": "Diff: Capture d'une image master avec WDS  (Working Tree)"
             }
           }
         ]
@@ -202,10 +202,14 @@
       "print:Print note": false
     }
   },
-  "active": "4efa890479b47441",
+  "active": "80b42943d52a2a01",
   "lastOpenFiles": [
-    "Dictionnaire.md",
+    "CLAUDE.md",
+    "_Procédures/Centre de documents/Windows Serveur/WDS/Capture d'une image master avec WDS.md",
+    "_Procédures/Centre de documents/Windows Serveur/Administration Active Directory.md",
+    "_Procédures/Centre de documents/Windows Serveur/🧑‍💼 Active Directory (Niveau 1 et 2).md",
     "🧠 Glossaire.md",
+    "Dictionnaire.md",
     "Glossaire.md.tmp.7796.1776322698274",
     "Essentiels/VLSM - Découpage réseau.md",
     "Essentiels/Utiliser les VLAN pour réduire les domaines de diffusion.md",
@@ -217,7 +221,6 @@
     "_Procédures/Centre de documents/Linux/GLPI",
     "_Procédures/Centre de documents/Linux",
     "_Procédures/Centre de documents/Windows Serveur",
-    "_Procédures/Centre de documents/Windows Serveur/WDS/Capture d'une image master avec WDS.md",
     "image/Capture d'une image master avec WDS-1776320746292.jpeg",
     "image/Capture d'une image master avec WDS-1776320688495.jpeg",
     "image/Capture d'une image master avec WDS-1776320471719.jpeg",
@@ -229,7 +232,6 @@
     "image/Capture d'une image master avec WDS-1776319881783.jpeg",
     "image/Capture d'une image master avec WDS-1776319871626.jpeg",
     "index.md",
-    "CLAUDE.md",
     "Notes/Plan Auto-Formation.md",
     "_Procédures/Centre de documents/Fog/index.md",
     "_Procédures/Centre de documents/Bash/index.md",
@@ -242,13 +244,11 @@
     "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281936005",
     "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281932831",
     "_Procédures/Centre de documents/Linux/Mise en place serveur DHCP.md",
-    "_Procédures/Centre de documents/Windows Serveur/Administration Active Directory.md",
     "_Procédures/Centre de documents/Powershell/index.md",
     "_Procédures/Centre de documents/Cisco packet Tracer/index.md",
     "_Procédures/Centre de documents/Cisco packet Tracer/VLANs.md",
     "_Procédures/Centre de documents/Cisco packet Tracer/Liste de commandes.md",
     "_Procédures/Centre de documents/Cisco packet Tracer/DHCP.md",
-    "_Procédures/Centre de documents/Cisco packet Tracer/Configuration basique.md",
-    "_Procédures/Centre de documents/Cisco packet Tracer/Activer SSH.md"
+    "_Procédures/Centre de documents/Cisco packet Tracer/Configuration basique.md"
   ]
 }

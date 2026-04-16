@@ -23,6 +23,7 @@ base: "[[_Centre de documents.base]]"
 | Client master | Windows 10 à personnaliser |
 | Réseau | DHCP actif, les deux machines sur le même réseau |
 | ISO Windows 10 | Nécessaire pour extraire le fichier `boot.wim` |
+Installer le rôle `DHCP` et Windows `Deployment Service`
 
 > [!tip] Bonne pratique
 > Créer un **compte utilisateur dédié** aux déploiements plutôt que d'utiliser le compte Administrateur.
