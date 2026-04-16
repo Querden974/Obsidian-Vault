@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dictionnaire.md",
+                "file": "_Procédures/Centre de documents/Windows Serveur/AD Corbeille.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dictionnaire"
+              "title": "AD Corbeille"
             }
           }
         ]
@@ -202,15 +202,26 @@
       "print:Print note": false
     }
   },
-  "active": "33543344004abc18",
+  "active": "025d4fe5c113d70a",
   "lastOpenFiles": [
+    "AD Corbeille.docx",
+    "_Procédures/Centre de documents/Windows Serveur/AD Corbeille.md",
+    "Attachments/AD Corbeille 4.png",
+    "Attachments/AD Corbeille 3.png",
+    "Attachments/AD Corbeille 2.png",
+    "Attachments/AD Corbeille 1.png",
+    "Attachments/AD Corbeille.png",
+    "Attachments",
+    "_Procédures/Centre de documents/Bash/index.md",
+    "Sans titre.md",
+    "_Procédures/Centre de documents/Bash/📥 Lecture d’arguments.md",
+    "🧠 Glossaire.md",
+    "Dictionnaire.md",
     "index.md",
     "CLAUDE.md",
     "_Procédures/Centre de documents/Windows Serveur/WDS/Capture d'une image master avec WDS.md",
     "_Procédures/Centre de documents/Windows Serveur/Administration Active Directory.md",
     "_Procédures/Centre de documents/Windows Serveur/🧑‍💼 Active Directory (Niveau 1 et 2).md",
-    "🧠 Glossaire.md",
-    "Dictionnaire.md",
     "Glossaire.md.tmp.7796.1776322698274",
     "Essentiels/VLSM - Découpage réseau.md",
     "Essentiels/Utiliser les VLAN pour réduire les domaines de diffusion.md",
@@ -227,28 +238,16 @@
     "image/Capture d'une image master avec WDS-1776320471719.jpeg",
     "image/Capture d'une image master avec WDS-1776320132079.jpeg",
     "image/Capture d'une image master avec WDS-1776319972462.jpeg",
-    "image/Capture d'une image master avec WDS-1776319925700.jpeg",
-    "image/Capture d'une image master avec WDS-1776319918520.jpeg",
-    "image/Capture d'une image master avec WDS-1776319904217.jpeg",
-    "image/Capture d'une image master avec WDS-1776319881783.jpeg",
-    "image/Capture d'une image master avec WDS-1776319871626.jpeg",
     "Notes/Plan Auto-Formation.md",
     "_Procédures/Centre de documents/Fog/index.md",
-    "_Procédures/Centre de documents/Bash/index.md",
     "index.md.tmp.42948.1776285555886",
     "Suivi Alternance.md",
     "_Procédures/Centre de documents/Zabbix/index.md",
     "_Procédures/Centre de documents/Routage/index.md",
     "_Procédures/_Centre de documents.base",
     "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281943904",
-    "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281936005",
-    "Notes/_Procédures/Centre de documents/Powershell/index.md.tmp.40232.1776281932831",
     "_Procédures/Centre de documents/Linux/Mise en place serveur DHCP.md",
     "_Procédures/Centre de documents/Powershell/index.md",
-    "_Procédures/Centre de documents/Cisco packet Tracer/index.md",
-    "_Procédures/Centre de documents/Cisco packet Tracer/VLANs.md",
-    "_Procédures/Centre de documents/Cisco packet Tracer/Liste de commandes.md",
-    "_Procédures/Centre de documents/Cisco packet Tracer/DHCP.md",
-    "_Procédures/Centre de documents/Cisco packet Tracer/Configuration basique.md"
+    "_Procédures/Centre de documents/Cisco packet Tracer/index.md"
   ]
 }
