@@ -1,6 +1,8 @@
 ---
-
+draft: "true"
 ---
+
+
 - **TCP (Transmission Control Protocol)** : Protocole de communication qui garantit la transmission fiable des données entre deux machines (contrôle d’erreurs, ordre des paquets). Utilisé par exemple pour le web (HTTP/HTTPS), les mails (SMTP, IMAP), etc.
 - **UDP (User Datagram Protocol)** : Protocole de communication sans garantie de livraison ni d’ordre des paquets, mais plus rapide que TCP. Utilisé pour la voix (VoIP), la vidéo en streaming, ou les jeux en ligne.
 - **IP (Internet Protocol)** : Protocole qui identifie les machines sur un réseau grâce à une adresse unique (IPv4 ou IPv6) et assure le routage des paquets.

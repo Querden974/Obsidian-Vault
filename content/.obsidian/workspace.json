@@ -11,10 +11,14 @@
             "id": "33543344004abc18",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Dictionnaire.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "Dictionnaire"
             }
           }
         ]
@@ -198,8 +202,9 @@
       "print:Print note": false
     }
   },
-  "active": "4efa890479b47441",
+  "active": "33543344004abc18",
   "lastOpenFiles": [
+    "index.md",
     "CLAUDE.md",
     "_Procédures/Centre de documents/Windows Serveur/WDS/Capture d'une image master avec WDS.md",
     "_Procédures/Centre de documents/Windows Serveur/Administration Active Directory.md",
@@ -227,7 +232,6 @@
     "image/Capture d'une image master avec WDS-1776319904217.jpeg",
     "image/Capture d'une image master avec WDS-1776319881783.jpeg",
     "image/Capture d'une image master avec WDS-1776319871626.jpeg",
-    "index.md",
     "Notes/Plan Auto-Formation.md",
     "_Procédures/Centre de documents/Fog/index.md",
     "_Procédures/Centre de documents/Bash/index.md",
