@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiBorgbackup",
-      "SiDebian",
-      "SiWindowsxp",
-      "LiNetwork",
-      "SiGnubash"
+      "LiSettings",
+      "CuCisco",
+      "SiPfsense",
+      "CuGlpi",
+      "LiSave"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -61,5 +61,13 @@
   "_Procédures/Centre de documents/Windows": "SiWindowsxp",
   "_Procédures/Centre de documents/Sauvegarde et Deploiement/Fog": "CuFOGProjectLogo",
   "_Procédures/Centre de documents/Linux/Procédure projet SAN BORG CLIENT afpa.md": "SiBorgbackup",
-  "_Procédures/Centre de documents/Linux/Debian_12_Core_Installation.md": "SiDebian"
+  "_Procédures/Centre de documents/Linux/Debian_12_Core_Installation.md": "SiDebian",
+  "_Procédures/Centre de documents/Sauvegarde et Deploiement": "LiSave",
+  "_Procédures/Centre de documents/Linux/GLPI": "CuGlpi",
+  "_Procédures/Centre de documents/Hardware/CBS250 - Configuration.md": "CuCisco",
+  "_Procédures/Centre de documents/pfSense": {
+    "iconName": "SiPfsense",
+    "iconColor": "#1613e7"
+  },
+  "_Procédures/Centre de documents/Hardware": "LiSettings"
 }

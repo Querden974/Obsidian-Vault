@@ -50,7 +50,7 @@ base: "[[_Centre de documents.base]]"
 ## Services réseau
 
 > [!info] DHCP
-> ### [[DHCP]]
+> ### [[_Procédures/Centre de documents/Cisco packet Tracer/DHCP]]
 > Configurer un routeur Cisco comme serveur DHCP.
 >
 > ```
@@ -66,7 +66,7 @@ base: "[[_Centre de documents.base]]"
 > - `ip dhcp excluded-address` — adresses réservées
 
 > [!info] VLANs
-> ### [[VLANs]]
+> ### [[_Procédures/Centre de documents/Cisco packet Tracer/VLANs]]
 > Segmenter le réseau en réseaux logiques isolés.
 >
 > - Créer : `vlan <id>` → `name <nom>`
@@ -107,6 +107,6 @@ base: "[[_Centre de documents.base]]"
 > [!tip] Ordre de configuration recommandé
 > 1. Appliquer la **configuration de base** (nom, mots de passe, sauvegarde) → [[Configuration basique]]
 > 2. Activer **SSH** pour sécuriser l'accès à distance → [[Activer SSH]]
-> 3. Créer et attribuer les **VLANs**, configurer les trunks → [[VLANs]]
-> 4. Configurer le service **DHCP** si le routeur distribue les adresses → [[DHCP]]
+> 3. Créer et attribuer les **VLANs**, configurer les trunks → [[_Procédures/Centre de documents/Cisco packet Tracer/VLANs]]
+> 4. Configurer le service **DHCP** si le routeur distribue les adresses → [[_Procédures/Centre de documents/Cisco packet Tracer/DHCP]]
 > 5. Vérifier avec `show vlan brief`, `show ip ssh`, `show running-config`
