@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "21c091d03ed0de90",
+        "id": "785dafc212310b9f",
         "type": "tabs",
         "children": [
           {
-            "id": "80b42943d52a2a01",
+            "id": "33543344004abc18",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "content/_Procédures/Centre de documents/Windows Serveur/WDS/Capture d'une image master avec WDS.md",
-                "bFile": "content/_Procédures/Centre de documents/Windows Serveur/WDS/Capture d'une image master avec WDS.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Capture d'une image master avec WDS  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -202,7 +198,7 @@
       "print:Print note": false
     }
   },
-  "active": "80b42943d52a2a01",
+  "active": "4efa890479b47441",
   "lastOpenFiles": [
     "CLAUDE.md",
     "_Procédures/Centre de documents/Windows Serveur/WDS/Capture d'une image master avec WDS.md",
