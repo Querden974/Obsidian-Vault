@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiProxmox",
       "LiSettings",
       "CuCisco",
       "SiPfsense",
-      "CuGlpi",
-      "LiSave"
+      "CuGlpi"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -69,5 +69,9 @@
     "iconName": "SiPfsense",
     "iconColor": "#1613e7"
   },
-  "_Procédures/Centre de documents/Hardware": "LiSettings"
+  "_Procédures/Centre de documents/Hardware": "LiSettings",
+  "_Procédures/Centre de documents/Proxmox": {
+    "iconName": "SiProxmox",
+    "iconColor": "#f09f14"
+  }
 }

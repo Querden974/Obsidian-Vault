@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dictionnaire.md",
+                "file": "_Procédures/Centre de documents/Routage/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dictionnaire"
+              "title": "index"
+            }
+          },
+          {
+            "id": "67ead08bb5cd823c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Procédures/Centre de documents/Proxmox/Utilisateurs-et-Permissions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Utilisateurs-et-Permissions"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,52 +217,53 @@
       "print:Print note": false
     }
   },
-  "active": "33543344004abc18",
+  "active": "67ead08bb5cd823c",
   "lastOpenFiles": [
-    "_Procédures/Centre de documents/pfSense/index.md",
-    "Output/pfSense/index.md.tmp.10980.1776343300453",
-    "_Procédures/Centre de documents/Hardware/CBS250 - Configuration.md",
-    "_Procédures/Centre de documents/Hardware",
-    "_Procédures/Centre de documents/pfSense/RADIUS.md",
-    "_Procédures/Centre de documents/pfSense/General.md",
-    "_Procédures/Centre de documents/pfSense/Pare-feu.md",
-    "G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1).md",
-    "Output/index.md.tmp.10980.1776342914643",
-    "_Procédures/Centre de documents/pfSense/Haute Disponibilite.md",
-    "Output/pfSense/Haute Disponibilite.md.tmp.10980.1776342907424",
-    "_Procédures/Centre de documents/pfSense/VLANs.md",
-    "Output/pfSense/VLANs.md.tmp.10980.1776342885997",
-    "Output/pfSense/DHCP.md.tmp.10980.1776342874386",
-    "Output/pfSense/Portail Captif.md.tmp.10980.1776342862707",
-    "Output/pfSense/VPN.md.tmp.10980.1776342851431",
-    "Output/pfSense/RADIUS.md.tmp.10980.1776342830820",
-    "Output/pfSense/Pare-feu.md.tmp.10980.1776342801351",
-    "Attachments/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 116.png",
-    "Attachments/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 115.png",
-    "Attachments/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 114.png",
-    "Attachments/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 113.png",
-    "Attachments/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 112.png",
-    "Attachments/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 111.png",
-    "Attachments/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 110.png",
-    "Attachments/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 109.png",
-    "Attachments/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 108.png",
-    "Attachments/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 107.png",
-    "_Procédures/Centre de documents/pfSense/DHCP.md",
-    "_Procédures/Centre de documents/pfSense/Logs.md",
-    "_Procédures/Centre de documents/pfSense/Portail Captif.md",
-    "_Procédures/Centre de documents/pfSense/Routage.md",
-    "_Procédures/Centre de documents/pfSense/VPN.md",
-    "Installation_CISCO_CSB250_08012025.md",
-    "_Procédures/Centre de documents/Linux/GLPI/Procédures_utilisateurs_GLPI.md",
-    "Procédures_utilisateurs_GLPI.md",
-    "Procédures_utilisateurs_GLPI 1.md",
-    "_Procédures/Centre de documents/Linux/GLPI/Importer CSV GLPI.md",
+    "_Procédures/Centre de documents/Proxmox/Stockage-iSCSI.md",
+    "_Procédures/Centre de documents/Proxmox/Réseau.md",
+    "_Procédures/Centre de documents/Proxmox/Gestion-des-VM.md",
+    "_Procédures/Centre de documents/Proxmox/Stockage-iSCSI.md.tmp.16240.1776351148901",
+    "_Procédures/Centre de documents/Proxmox/Installation.md",
+    "_Procédures/Centre de documents/Proxmox/Utilisateurs-et-Permissions.md",
+    "_Procédures/Centre de documents/Proxmox/Utilisateurs-et-Permissions.md.tmp.16240.1776351114125",
+    "_Procédures/Centre de documents/Proxmox/Réseau.md.tmp.16240.1776351098817",
+    "_Procédures/Centre de documents/Proxmox/index.md",
+    "_Procédures/Centre de documents/Proxmox/Gestion-des-VM.md.tmp.16240.1776351074452",
+    "G_Rayeroux_Procedure_Proxmox_09032026.md",
+    "_Procédures/Centre de documents/Proxmox/Installation.md.tmp.16240.1776351051727",
+    "_Procédures/Centre de documents/Proxmox/index.md.tmp.16240.1776351021199",
+    "_Procédures/Centre de documents/Proxmox",
+    "G_Rayeroux_Procedure_Proxmox_09032026.docx",
+    "Attachments/G_Rayeroux_Procedure_Proxmox_09032026 48.png",
+    "Attachments/G_Rayeroux_Procedure_Proxmox_09032026 47.png",
+    "Attachments/G_Rayeroux_Procedure_Proxmox_09032026 46.png",
+    "Attachments/G_Rayeroux_Procedure_Proxmox_09032026 45.png",
+    "Attachments/G_Rayeroux_Procedure_Proxmox_09032026 44.png",
+    "Attachments/G_Rayeroux_Procedure_Proxmox_09032026 43.png",
+    "Attachments/G_Rayeroux_Procedure_Proxmox_09032026 42.png",
+    "Attachments/G_Rayeroux_Procedure_Proxmox_09032026 41.png",
+    "Attachments/G_Rayeroux_Procedure_Proxmox_09032026 40.png",
+    "Attachments/G_Rayeroux_Procedure_Proxmox_09032026 39.png",
     "index.md",
     "_Procédures/Centre de documents/Routage/index.md",
-    "_Procédures/Centre de documents/Windows/Veyon client.md",
-    "_Procédures/Centre de documents/Linux/SAN Debian12 2.md",
-    "_Procédures/Centre de documents/Windows Serveur/Inst_WinSer_2019.md",
-    "_Procédures/Centre de documents/Linux/Procédure projet SAN BORG CLIENT afpa.md",
-    "_Procédures/Centre de documents/Linux/GlusterFS.md"
+    "conflict-files-obsidian-git.md",
+    "_Procédures/Centre de documents/Routage/Synthèse - Protocoles de Routage Dynamique.md",
+    "_Procédures/Centre de documents/Routage/Configurations Routeurs - Cisco PT.md",
+    "_Procédures/Centre de documents/Sauvegarde et Deploiement/Fog/Gestion d'utilisateurs.md",
+    "_Procédures/Centre de documents/Sauvegarde et Deploiement/Fog/index.md",
+    "_Procédures/Centre de documents/Routage/TP 3 Routage dynamique.md",
+    "_Procédures/Centre de documents/Routage/🏍Routage - OSPF.md",
+    "_Procédures/Centre de documents/Bash/📦 Basics.md",
+    "_Procédures/Centre de documents/Bash/📥 Lecture d’arguments.md",
+    "_Procédures/Centre de documents/Hardware/CBS250 - Configuration.md",
+    "_Procédures/Centre de documents/pfSense/VPN.md",
+    "_Procédures/Centre de documents/pfSense/VLANs.md",
+    "_Procédures/Centre de documents/pfSense/Routage.md",
+    "_Procédures/Centre de documents/pfSense/RADIUS.md",
+    "_Procédures/Centre de documents/pfSense/Portail Captif.md",
+    "_Procédures/Centre de documents/pfSense/Pare-feu.md",
+    "_Procédures/Centre de documents/pfSense/Logs.md",
+    "_Procédures/_Centre de documents.base",
+    "Output/pfSense/index.md.tmp.10980.1776343300453"
   ]
 }
