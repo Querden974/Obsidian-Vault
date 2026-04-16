@@ -14,9 +14,6 @@
 
 ---
 
----
-
-<!-- Column 1 -->
 ## **Commandes Générales**
 
 ### Afficher la version de Docker
@@ -31,8 +28,6 @@ docker --version
 docker help
 ```
 
-
-<!-- Column 2 -->
 
 ## **Images**
 
@@ -57,7 +52,6 @@ docker rmi <image_id>
 
 ---
 
-<!-- Column 1 -->
 ## **Conteneurs**
 
 ### Créer et démarrer un conteneur
@@ -143,7 +137,6 @@ docker network connect <nom_reseau> <nom_ou_id_conteneur>
 
 ---
 
-<!-- Column 1 -->
 ## **Docker Compose**
 
 ### Lancer des services définis dans un fichier `docker-compose.yml`
@@ -161,7 +154,6 @@ docker-compose down
 ```
 
 
-<!-- Column 2 -->
 ## **Gestion des Ressources**
 
 ### Nettoyer les conteneurs, images et volumes inutilisés

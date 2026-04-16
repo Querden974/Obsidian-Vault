@@ -70,7 +70,7 @@ tags:
 
 > [!warning] Conteneurisation
 >
-> - [[_Docker]] — Images, conteneurs, Docker Compose
+> - [[_Procédures/Centre de documents/Docker/index]] — Images, conteneurs, Docker Compose
 
 > [!warning] Déploiement
 >
