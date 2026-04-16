@@ -59,24 +59,42 @@ Monter l'ISO Windows 10 et importer le fichier source :
 [Lecteur ISO]:\Sources\boot.wim
 ```
 dans WDS via `Images de démarrage > Ajouter une image de démarrage`.
+![[Capture d'une image master avec WDS-1776319844577.jpeg]]
+![[Capture d'une image master avec WDS-1776319855507.jpeg]]
+![[Capture d'une image master avec WDS-1776319871626.jpeg]]
+![[Capture d'une image master avec WDS-1776319881783.jpeg]]
 
 ### b. Générer l'image de capture
 
 Faire un clic droit sur l'image de démarrage importée → **Créer une image de capture**.
+![[Capture d'une image master avec WDS-1776319904217.jpeg]]
+![[Capture d'une image master avec WDS-1776319918520.jpeg]]
 
 Enregistrer le fichier `.wim` généré dans :
 ```
 E:\RemoteInstall\Boot\x64\Images\[nom_capture].wim
 ```
 
+![[Capture d'une image master avec WDS-1776319925700.jpeg]]
+
 ### c. Configurer les images actives
 
 Dans WDS :
-- **Désactiver** l'image de démarrage (Setup)
+- **Désactiver** l'image de démarrage (Setup) `Clic droit > Désactiver`
+![[Capture d'une image master avec WDS-1776319972462.jpeg]]
+
 - **Garder uniquement** l'image de capture active
 
 > [!note]
 > Créer également un **groupe d'images d'installation** vide pour accueillir le `.wim` capturé plus tard.
+
+![[Capture d'une image master avec WDS-1776320132079.jpeg]]
+
+Pour éviter que les utilisateurs aient à appuyer sur une touche pour lancer l'image de démarrage.
+Aller dans les propriétés du serveur WDS `Clic droit > Protiétés > Démarrer`
+
+![[Capture d'une image master avec WDS-1776320471719.jpeg]]
+
 
 ---
 
@@ -132,15 +150,16 @@ Sélectionner l'option **LAN / PXE boot** — le menu WDS se charge.
 Dans le menu WDS, sélectionner l'**image de capture** précédemment créée.
 
 Suivre l'assistant :
-VM-WinServ2019.virtual-ad.local
 
-| Étape | Action |
-|---|---|
-| Sélectionner le volume | Choisir la partition contenant Windows (généralement `C:`) |
-| Nommer l'image | Donner un nom explicite (ex : `Win10-Master-Compta`) |
-| Connexion au serveur | Saisir `nom_serveur\nom_utilisateur` |
-| Destination | Partage réseau `\\nom_serveur\reminst` |
-| Nom du fichier `.wim` | Inclure l'extension `.wim` (ex : `Win10-Master-Compta.wim`) |
+| Étape                  | Action                                                               |
+| ---------------------- | -------------------------------------------------------------------- |
+| Sélectionner le volume | Choisir la partition contenant Windows (généralement `C:`)           |
+| Nommer l'image         | Donner un nom explicite (ex : `Win10-Master-Compta`)                 |
+| Connexion au serveur   | Saisir `nom_serveur\nom_utilisateur` (ex: VIRTUAL-AD\Administrateur) |
+| Groupe d'image         | Choisir le groupe d'image où stocker la capture en cours             |
+| Destination            | Partage réseau `\\nom_serveur\reminst`                               |
+| Nom du fichier `.wim`  | Inclure l'extension `.wim` (ex : `Win10-Master-Compta.wim`)          |
+![[Capture d'une image master avec WDS-1776320688495.jpeg]]
 
 > [!note] Alternative
 > Il est possible d'enregistrer le `.wim` sur une **clé USB**, un disque externe ou un partage réseau tiers avant de l'importer manuellement dans WDS.
@@ -155,6 +174,9 @@ Une fois la capture terminée et le `.wim` disponible sur le serveur :
 
 - **Réactiver** l'image de démarrage (Setup)
 - **Désactiver** l'image de capture
+
+![[Capture d'une image master avec WDS-1776320746292.jpeg]]
+
 - Vérifier que le `.wim` capturé est bien visible dans le groupe d'images d'installation WDS
 
 ---

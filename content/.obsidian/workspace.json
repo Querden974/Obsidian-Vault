@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "WDS/Capture d'une image master avec WDS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Capture d'une image master avec WDS"
             }
           }
         ]
@@ -202,11 +202,23 @@
       "print:Print note": false
     }
   },
-  "active": "025d4fe5c113d70a",
+  "active": "80b42943d52a2a01",
   "lastOpenFiles": [
+    "image/Capture d'une image master avec WDS-1776320746292.jpeg",
+    "image/Capture d'une image master avec WDS-1776320688495.jpeg",
+    "image/Capture d'une image master avec WDS-1776320471719.jpeg",
+    "image/Capture d'une image master avec WDS-1776320132079.jpeg",
+    "image/Capture d'une image master avec WDS-1776319972462.jpeg",
+    "image/Capture d'une image master avec WDS-1776319925700.jpeg",
+    "image/Capture d'une image master avec WDS-1776319918520.jpeg",
+    "image/Capture d'une image master avec WDS-1776319904217.jpeg",
+    "image/Capture d'une image master avec WDS-1776319881783.jpeg",
+    "image/Capture d'une image master avec WDS-1776319871626.jpeg",
+    "image/Capture d'une image master avec WDS-1776319855507.jpeg",
+    "Bases des Réseaux Informatiques.md",
+    "index.md",
     "CLAUDE.md",
     "Notes/Plan Auto-Formation.md",
-    "index.md",
     "_Procédures/Centre de documents/Fog/index.md",
     "_Procédures/Centre de documents/Bash/index.md",
     "index.md.tmp.42948.1776285555886",
@@ -237,18 +249,6 @@
     "_Procédures/Centre de documents/Zabbix/SNMP Cisco.md",
     "_Procédures/Centre de documents/Zabbix/Sondes Personnalisées.md",
     "_Procédures/Centre de documents/Zabbix/Prototypes LLD (Item, Trigger, Graph).md",
-    "_Procédures/Centre de documents/Zabbix/Installation serveur Zabbix.md",
-    "_Procédures/Centre de documents/Zabbix/Installation agent Zabbix passif (Linux).md",
-    "_Procédures/Centre de documents/Zabbix/Alertes et Notifications.md",
-    "image/image/_Zabbix-1775648009632.jpeg",
-    "image/image/_Zabbix-1775648064494.jpeg",
-    "image/image/_Zabbix-1775647823842.jpeg",
-    "image/image/_Zabbix-1775647964698.jpeg",
-    "image/image/_Zabbix-1775647932056.jpeg",
-    "image/image/_Zabbix-1775647198038.jpeg",
-    "image/image/_Zabbix-1775647522877.jpeg",
-    "image/image/_Zabbix-1775646901129.jpeg",
-    "image/image/_Zabbix-1775646786376.jpeg",
-    "image/image/_Zabbix-1775641929996.jpeg"
+    "_Procédures/Centre de documents/Zabbix/Installation serveur Zabbix.md"
   ]
 }
