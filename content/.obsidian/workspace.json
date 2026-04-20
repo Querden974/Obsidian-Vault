@@ -25,12 +25,14 @@
             "id": "67ead08bb5cd823c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "image/Attachments/Veyon client 5.png"
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Veyon client 5"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ],
@@ -215,8 +217,10 @@
       "print:Print note": false
     }
   },
-  "active": "025d4fe5c113d70a",
+  "active": "67ead08bb5cd823c",
   "lastOpenFiles": [
+    "_Procédures/Home.md",
+    "image/Attachments/Veyon client 5.png",
     "_Procédures/Centre de documents/Linux/GLPI/Importer CSV GLPI.md",
     "G_Rayeroux_Procedure_ImporterCSVGlpi_24112025.md",
     "image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025.png",
@@ -229,7 +233,6 @@
     "image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 12.png",
     "image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 11.png",
     "image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 10.png",
-    "image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 9.png",
     "Glossaire.md",
     "_Procédures/Centre de documents/Windows Serveur/Installation Windows Server 2019.md",
     "CLAUDE.md",
@@ -260,8 +263,6 @@
     "_Procédures/Centre de documents/Routage/index.md",
     "conflict-files-obsidian-git.md",
     "_Procédures/Centre de documents/Routage/Synthèse - Protocoles de Routage Dynamique.md",
-    "_Procédures/Centre de documents/Routage/Configurations Routeurs - Cisco PT.md",
-    "_Procédures/Centre de documents/Sauvegarde et Deploiement/Fog/Gestion d'utilisateurs.md",
     "_Procédures/_Centre de documents.base"
   ]
 }
