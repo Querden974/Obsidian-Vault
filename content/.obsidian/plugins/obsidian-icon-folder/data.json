@@ -35,10 +35,6 @@
     "useInternalPlugins": false
   },
   "_Procédures/Centre de documents": "SiBookstack",
-  "_Procédures/Centre de documents/Ansible.md": "SiAnsible",
-  "_Procédures/Centre de documents/Connexion au bureau à distance.md": "LiMapPinHouse",
-  "_Procédures/Centre de documents/Installer une imprimante réseau.md": "LiPrinter",
-  "_Procédures/Centre de documents/Mise en place d'une machine virtuelle.md": "SiVmware",
   "_Procédures/Centre de documents/Powershell": "SiPowershell",
   "_Procédures/Centre de documents/Routage": "LiRouter",
   "_Procédures/Centre de documents/Zabbix": "CuZabbix",
@@ -73,5 +69,9 @@
   "_Procédures/Centre de documents/Proxmox": {
     "iconName": "SiProxmox",
     "iconColor": "#f09f14"
-  }
+  },
+  "_Procédures/Centre de documents/Sauvegarde et Deploiement/Ansible.md": "SiAnsible",
+  "_Procédures/Centre de documents/Windows/Connexion au bureau à distance.md": "LiMapPinHouse",
+  "_Procédures/Centre de documents/Windows/Installer une imprimante réseau.md": "LiPrinter",
+  "_Procédures/Centre de documents/Windows/Mise en place d'une machine virtuelle.md": "SiVmware"
 }

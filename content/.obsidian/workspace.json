@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Procédures/Centre de documents/Proxmox/Utilisateurs-et-Permissions.md",
+                "file": "Glossaire.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Utilisateurs-et-Permissions"
+              "title": "Glossaire"
             }
           }
         ],
@@ -219,12 +219,22 @@
   },
   "active": "67ead08bb5cd823c",
   "lastOpenFiles": [
+    "_Procédures/Centre de documents/Windows Serveur/Installation Windows Server 2019.md",
+    "CLAUDE.md",
+    "Dictionnaire.md",
+    "_Procédures/Centre de documents/Windows Serveur/Inst_WinSer_2019.md",
+    "_Procédures/Centre de documents/Windows Serveur/Administration Active Directory.md",
+    "_Procédures/Centre de documents/Windows Serveur/AD Sauvegarde.md",
+    "_Procédures/Centre de documents/Windows Serveur/AD Corbeille.md",
+    "_Procédures/Centre de documents/Windows Serveur/AD Configuration et Promotion.md",
+    "_Procédures/Centre de documents/Sauvegarde et Deploiement/Ansible.md",
+    "_Procédures/Centre de documents/Windows/Changement_Adresse_IP.md",
+    "_Procédures/Centre de documents/Proxmox/Utilisateurs-et-Permissions.md",
     "_Procédures/Centre de documents/Proxmox/Stockage-iSCSI.md",
     "_Procédures/Centre de documents/Proxmox/Réseau.md",
     "_Procédures/Centre de documents/Proxmox/Gestion-des-VM.md",
     "_Procédures/Centre de documents/Proxmox/Stockage-iSCSI.md.tmp.16240.1776351148901",
     "_Procédures/Centre de documents/Proxmox/Installation.md",
-    "_Procédures/Centre de documents/Proxmox/Utilisateurs-et-Permissions.md",
     "_Procédures/Centre de documents/Proxmox/Utilisateurs-et-Permissions.md.tmp.16240.1776351114125",
     "_Procédures/Centre de documents/Proxmox/Réseau.md.tmp.16240.1776351098817",
     "_Procédures/Centre de documents/Proxmox/index.md",
@@ -253,16 +263,6 @@
     "_Procédures/Centre de documents/Sauvegarde et Deploiement/Fog/index.md",
     "_Procédures/Centre de documents/Routage/TP 3 Routage dynamique.md",
     "_Procédures/Centre de documents/Routage/🏍Routage - OSPF.md",
-    "_Procédures/Centre de documents/Bash/📦 Basics.md",
-    "_Procédures/Centre de documents/Bash/📥 Lecture d’arguments.md",
-    "_Procédures/Centre de documents/Hardware/CBS250 - Configuration.md",
-    "_Procédures/Centre de documents/pfSense/VPN.md",
-    "_Procédures/Centre de documents/pfSense/VLANs.md",
-    "_Procédures/Centre de documents/pfSense/Routage.md",
-    "_Procédures/Centre de documents/pfSense/RADIUS.md",
-    "_Procédures/Centre de documents/pfSense/Portail Captif.md",
-    "_Procédures/Centre de documents/pfSense/Pare-feu.md",
-    "_Procédures/Centre de documents/pfSense/Logs.md",
     "_Procédures/_Centre de documents.base",
     "Output/pfSense/index.md.tmp.10980.1776343300453"
   ]
