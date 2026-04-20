@@ -15,8 +15,8 @@ Date de création: 2026-01-15
 1. Aller dans **Interfaces** → **Assignments**, puis aller dans l'onglet **« VLANs »**
 2. Cliquer sur **« Add »**
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 82.png]]
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 83.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 82.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 83.png]]
 
 3. Renseigner les paramètres du VLAN :
    - **Port parent** : interface physique portant le VLAN
@@ -24,7 +24,7 @@ Date de création: 2026-01-15
    - **Priorité** (802.1p)
    - **Description**
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 84.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 84.png]]
 
 ### Tableau des priorités 802.1p
 
@@ -39,7 +39,7 @@ Date de création: 2026-01-15
 | 6 | Internetwork Control |
 | 7 | Network Control |
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 85.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 85.png]]
 
 ---
 
@@ -48,11 +48,11 @@ Date de création: 2026-01-15
 1. Aller dans **Interfaces** → **Assignments**
 2. Ajouter les ports VLAN disponibles (créés à l'étape précédente)
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 86.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 86.png]]
 
 3. Pour chaque interface VLAN créée, configurer l'adresse IP statique correspondante au sous-réseau
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 87.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 87.png]]
 
 4. Répéter pour toutes les interfaces VLAN avec les bons paramètres
 

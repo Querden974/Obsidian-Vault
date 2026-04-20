@@ -19,7 +19,7 @@ Date de création: 2025-01-08
 - 1 câble USB-to-Serial
 - Putty
 
-![[Installation_CISCO_CSB250_08012025(1) 1.jpeg]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 1.jpeg]]
 
 ---
 
@@ -27,7 +27,7 @@ Date de création: 2025-01-08
 
 Appuyer sur le bouton **« reset »** au minimum **15 secondes** pour réinitialiser le switch aux paramètres de sortie d'usine.
 
-![[Installation_CISCO_CSB250_08012025(1).png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1).png]]
 
 ---
 
@@ -40,7 +40,7 @@ Appuyer sur le bouton **« reset »** au minimum **15 secondes** pour réinitial
    - 1 stop bit
    - No flow control
 
-![[Installation_CISCO_CSB250_08012025(1) 1.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 1.png]]
 
 2. Utiliser les identifiants par défaut : **`cisco` / `cisco`**
 3. Une fois connecté, changer le nom d'utilisateur et le mot de passe : **`admin` / `Afpa159*`**
@@ -48,7 +48,7 @@ Appuyer sur le bouton **« reset »** au minimum **15 secondes** pour réinitial
 > [!note]
 > Les nombres consécutifs ne sont pas tolérés pour un mot de passe.
 
-![[Installation_CISCO_CSB250_08012025(1) 2.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 2.png]]
 
 ---
 
@@ -68,8 +68,8 @@ username afpaIT password Afpa357*
 ```ios
 enable password Afpa147*
 ```
-![[Installation_CISCO_CSB250_08012025(1) 3.png]]
-![[Installation_CISCO_CSB250_08012025(1) 4.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 3.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 4.png]]
 
 2. Ajouter un nom de domaine au switch :
 ```ios
@@ -91,7 +91,7 @@ crypto key generate rsa
 
 Entrer l'adresse IP du switch dans le navigateur pour accéder à l'interface graphique, puis saisir les identifiants de connexion.
 
-![[Installation_CISCO_CSB250_08012025(1) 5.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 5.png]]
 
 ---
 
@@ -103,7 +103,7 @@ Aller dans **VLAN Management** → **VLAN Settings**, puis cliquer sur **« Add 
 
 Entrer le numéro de VLAN et son nom, puis valider.
 
-![[Installation_CISCO_CSB250_08012025(1) 6.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 6.png]]
 
 ### 6.2 Via ligne de commande
 
@@ -150,7 +150,7 @@ exit
 ```ios
 interface ge24
 ```
-![[Installation_CISCO_CSB250_08012025(1) 7.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 7.png]]
 
 2. Définir le mode trunk, le VLAN natif et les VLANs autorisés :
 ```ios

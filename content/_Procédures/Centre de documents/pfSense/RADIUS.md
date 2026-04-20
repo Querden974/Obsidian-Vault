@@ -26,7 +26,7 @@ Date de création: 2025-01-08
 1. Aller dans **System** → **Package Manager** → **Available Packages**
 2. Rechercher **« freeradius3 »** et l'installer
 
-![[Installation_CISCO_CSB250_08012025(1) 23.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 23.png]]
 
 3. Une fois installé, aller dans **Services** → **FreeRADIUS**
 
@@ -42,7 +42,7 @@ Dans l'onglet **« Interfaces »**, cliquer sur **« Add »** :
 4. Sélectionner la version IP (IPv4 / IPv6)
 5. Définir une description
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 111.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 111.png]]
 
 ---
 
@@ -58,7 +58,7 @@ Dans l'onglet **« NAS/Clients »**, cliquer sur **« Add »** :
 6. Définir le mot de passe du NAS
 7. Donner une description
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 112.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 112.png]]
 
 ---
 
@@ -73,7 +73,7 @@ Dans l'onglet **« Users »**, cliquer sur **« Add »** :
 > [!note]
 > Ce compte sera utilisé pour **OpenVPN** et le **portail captif**.
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 113.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 113.png]]
 
 ---
 
@@ -89,7 +89,7 @@ Aller dans **System** → **User Manager** → onglet **« Authentication Server
 6. Sélectionner le **RADIUS NAS IP Attribute** sur **« LAN »**
 7. Sauvegarder
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 114.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 114.png]]
 
 ---
 
@@ -97,7 +97,7 @@ Aller dans **System** → **User Manager** → onglet **« Authentication Server
 
 Aller dans **Diagnostics** → **Authentication** pour tester les identifiants d'un utilisateur RADIUS.
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 115.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 115.png]]
 
 ---
 
@@ -105,4 +105,4 @@ Aller dans **Diagnostics** → **Authentication** pour tester les identifiants d
 
 Dans la configuration du serveur **OpenVPN**, sélectionner le mode **« Remote Access (User Auth) »** pour utiliser la base d'utilisateurs RADIUS.
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 116.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 116.png]]

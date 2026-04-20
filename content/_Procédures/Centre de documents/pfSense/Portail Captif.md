@@ -32,7 +32,7 @@ Avant d'activer le portail captif, s'assurer que :
 4. Définir une **description**
 5. Cliquer sur **« Save and Continue »**
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 106.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 106.png]]
 
 ---
 
@@ -41,18 +41,18 @@ Avant d'activer le portail captif, s'assurer que :
 1. **Activer** le portail captif
 2. Sélectionner les **interfaces concernées** (ex. : VLAN 40 / Wifi)
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 107.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 107.png]]
 
 3. Modifier les paramètres suivants pour personnaliser les images et le logo du portail :
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 108.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 108.png]]
 
 4. Sélectionner un **mode d'authentification**
 5. Choisir le **serveur d'authentification** (RADIUS ou local)
 6. Choisir un second serveur d'authentification si besoin
 7. **Sauvegarder**
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 109.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 109.png]]
 
 ---
 
@@ -60,5 +60,5 @@ Avant d'activer le portail captif, s'assurer que :
 
 Les appareils connectés au réseau Wi-Fi ouvrent automatiquement la page du portail captif avant d'accéder à Internet.
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 110.png]]
-![[Installation_CISCO_CSB250_08012025(1) 3.jpeg]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 110.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 3.jpeg]]

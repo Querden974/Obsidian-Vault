@@ -40,7 +40,7 @@ Pour faire tourner Proxmox dans VMware Workstation, la virtualisation imbriquée
 1. Dans les paramètres de la VM VMware, aller dans **Hardware** → **Processors**
 2. Cocher **« Virtualize Intel VT-x/EPT or AMD-V/RVI »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026.png]]
 
 ---
 
@@ -51,15 +51,15 @@ Les dossiers partagés permettent de transférer des fichiers ISO depuis la mach
 1. Dans les paramètres de la VM VMware, aller dans **Options** → **Shared Folders**
 2. Sélectionner **« Always enabled »**, puis cliquer sur **« Add... »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 21.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 21.png]]
 
 3. Renseigner le **Host path** (chemin du dossier sur la machine hôte) et un **Name** pour le partage
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 22.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 22.png]]
 
 4. Cocher **« Enable this share »** pour activer le partage
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 23.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 23.png]]
 
 ---
 
@@ -69,15 +69,15 @@ Démarrer la VM avec l'ISO Proxmox VE montée.
 
 1. Sélectionner **« Install Proxmox VE »** dans le menu de démarrage
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 1.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 1.png]]
 
 2. Lire et accepter l'EULA en cliquant sur **« I agree »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 2.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 2.png]]
 
 3. Sélectionner le **disque cible** (`/dev/sda`, 40 GiB) puis cliquer sur **« Next »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 3.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 3.png]]
 
 > [!note]+ Options du disque
 > Le bouton **« Options »** permet de choisir le système de fichiers (ext4, xfs, zfs, btrfs). Par défaut : **ext4**.
@@ -89,11 +89,11 @@ Démarrer la VM avec l'ISO Proxmox VE montée.
    
    Puis cliquer sur **« Next »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 4.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 4.png]]
 
 5. Définir le **mot de passe root** et l'**adresse e-mail** administrateur, puis cliquer sur **« Next »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 5.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 5.png]]
 
 > [!warning]+ Sécurité du mot de passe
 > Le mot de passe doit comporter au moins 8 caractères avec des lettres, chiffres et symboles. L'email sert aux alertes système (backups, haute disponibilité...).
@@ -107,11 +107,11 @@ Démarrer la VM avec l'ISO Proxmox VE montée.
    
    Puis cliquer sur **« Next »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 6.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 6.png]]
 
 7. Vérifier le **résumé de configuration**, puis cliquer sur **« Install »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 7.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 7.png]]
 
 | Paramètre | Valeur |
 |---|---|

@@ -16,7 +16,7 @@ Date de création: 2025-01-08
 
 Aller dans **Firewall** → **Rules**, choisir l'interface où créer la règle, puis cliquer sur **« Add »**.
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 55.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 55.png]]
 
 ### Paramètres d'une règle
 
@@ -28,7 +28,7 @@ Aller dans **Firewall** → **Rules**, choisir l'interface où créer la règle,
 | Address Family | Famille d'adresse : IPv4 ou IPv6 |
 | Protocol | Protocole ciblé (TCP, UDP, ICMP…) |
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 56.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 56.png]]
 
 | Champ | Description |
 |---|---|
@@ -37,21 +37,21 @@ Aller dans **Firewall** → **Rules**, choisir l'interface où créer la règle,
 | Destination | Destinataire des paquets |
 | Destination Port | Port(s) concerné(s) en destination |
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 57.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 57.png]]
 
 | Champ | Description |
 |---|---|
 | Log | Enregistre les paquets dans le journal d'événements |
 | Description | Description lisible de la règle |
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 58.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 58.png]]
 
 ### Exemple de règle
 
 > J'**autorise** sur l'interface **OpenVPN** à la famille d'adresse **IPv4** d'utiliser les protocoles **TCP/UDP**.
 > J'autorise **toutes** les sources à aller sur le **LAN subnet** en utilisant le port **3389** (Bureau à distance).
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 59.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 59.png]]
 
 ---
 
@@ -59,7 +59,7 @@ Aller dans **Firewall** → **Rules**, choisir l'interface où créer la règle,
 
 Aller dans **Firewall** → **NAT**, puis dans l'onglet **« Port Forward »**, créer une redirection avec **« Add »**.
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 60.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 60.png]]
 
 | Champ | Description |
 |---|---|
@@ -73,13 +73,13 @@ Aller dans **Firewall** → **NAT**, puis dans l'onglet **« Port Forward »**, 
 | Redirect target | Adresse de redirection |
 | Description | Description de la règle |
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 61.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 61.png]]
 
 ### Exemple de règle de redirection
 
 > Sur l'interface **WAN** (IPv4 / TCP) : je redirige les sources arrivant sur **WAN address** vers l'adresse **192.168.100.2** sur le port **80** pour accéder au serveur web.
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 62.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 62.png]]
 
 ---
 
@@ -89,23 +89,23 @@ Aller dans **Firewall** → **NAT**, puis dans l'onglet **« Port Forward »**, 
 
 Ajouter une règle de pare-feu sur l'interface **LAN** :
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 63.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 63.png]]
 
 ### 3.2 Autoriser les flux sortant de la DMZ
 
 Autoriser l'accès DMZ → WAN :
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 64.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 64.png]]
 
 ### 3.3 Rediriger les flux entrant depuis le WAN vers le serveur web dans la DMZ
 
 Dans **Firewall** → **NAT**, créer une redirection vers la DMZ :
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 65.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 65.png]]
 
 ### 3.4 Configurer le NAT Outbound pour autoriser la DMZ à utiliser le WAN
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 66.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 66.png]]
 
 ---
 
@@ -113,4 +113,4 @@ Dans **Firewall** → **NAT**, créer une redirection vers la DMZ :
 
 Aller dans **Firewall** → **NAT** → **Outbound** pour désactiver le NAT si le routage inter-VLAN est géré par le switch CBS250.
 
-![[Installation_CISCO_CSB250_08012025(1) 20.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 20.png]]

@@ -24,8 +24,8 @@ Date de création: 2025-01-08
 1. Aller dans **System** → **Certificates** → onglet **« Authorities »**
 2. Créer un nouveau certificat d'autorité
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 89.png]]
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 90.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 89.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 90.png]]
 
 ---
 
@@ -35,9 +35,9 @@ Date de création: 2025-01-08
 2. Cliquer sur **« Add/Sign »**
 3. Sélectionner la CA créée à l'étape précédente
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 91.png]]
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 92.png]]
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 93.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 91.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 92.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 93.png]]
 
 ---
 
@@ -45,7 +45,7 @@ Date de création: 2025-01-08
 
 Si vous n'utilisez pas RADIUS, créer les utilisateurs directement dans pfSense :
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 94.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 94.png]]
 
 ---
 
@@ -53,9 +53,9 @@ Si vous n'utilisez pas RADIUS, créer les utilisateurs directement dans pfSense 
 
 1. Aller dans **VPN** → **OpenVPN** → onglet **« Servers »**, puis cliquer sur **« Add »**
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 95.png]]
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 96.png]]
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 97.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 95.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 96.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 97.png]]
 
 ### Paramètres clés
 
@@ -66,9 +66,9 @@ Si vous n'utilisez pas RADIUS, créer les utilisateurs directement dans pfSense 
 | **IPv4 Local network** | Réseaux LAN accessibles via le VPN (séparer par des virgules si plusieurs) |
 | **Concurrent connections** | Nombre de connexions VPN simultanées autorisées |
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 98.png]]
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 99.png]]
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 100.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 98.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 99.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 100.png]]
 
 ---
 
@@ -85,13 +85,13 @@ Si vous n'utilisez pas RADIUS, créer les utilisateurs directement dans pfSense 
 
 3. Une fois installé, aller dans **VPN** → **OpenVPN** → **Client Export**
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 101.png]]
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 102.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 101.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 102.png]]
 
 4. Cliquer sur **« Save as default »**
 5. Dans la section **OpenVPN Clients**, cliquer sur **« Archive »** pour télécharger l'archive de configuration
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 103.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 103.png]]
 
 6. Installer la configuration dans le dossier `config` sur le PC client
 
@@ -103,7 +103,7 @@ Si vous n'utilisez pas RADIUS, créer les utilisateurs directement dans pfSense 
 
 Ajouter une nouvelle règle dans **Firewall** → **Rules** → **WAN** :
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 104.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 104.png]]
 
 ### 6.2 Autoriser les flux vers les ressources (interface OpenVPN)
 
@@ -113,13 +113,13 @@ Exemple — autoriser le RDP depuis OpenVPN :
 
 Ajouter une règle dans **Firewall** → **Rules** → **OpenVPN** :
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 105.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 105.png]]
 
 ---
 
 ## 7. Test de la connexion RDP via VPN
 
-![[Installation_CISCO_CSB250_08012025(1) 36.png]]
-![[Installation_CISCO_CSB250_08012025(1) 37.png]]
-![[Installation_CISCO_CSB250_08012025(1) 38.png]]
-![[Installation_CISCO_CSB250_08012025(1) 39.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 36.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 37.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 38.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 39.png]]

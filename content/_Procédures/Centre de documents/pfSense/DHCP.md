@@ -42,8 +42,8 @@ Sur le **point d'accès TP-Link**, désactiver également le DHCP interne.
    - Passerelle : `192.168.40.1` (interface pfSense sur le VLAN 40)
    - DNS : selon configuration réseau
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 88.png]]
-![[Installation_CISCO_CSB250_08012025(1) 40.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 88.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 40.png]]
 
 ---
 
@@ -53,4 +53,4 @@ Si pfSense est configuré en haute disponibilité (voir [[Haute Disponibilite]])
 
 Aller dans **Services** → **DHCP Server**, sélectionner **LAN**, modifier la Gateway avec l'adresse virtuelle créée, puis sauvegarder.
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 69.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 69.png]]

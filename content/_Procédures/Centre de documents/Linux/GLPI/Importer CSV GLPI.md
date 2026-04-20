@@ -22,7 +22,7 @@ Passez sous le profil **super utilisateur** pour avoir tous les privilèges.
 ```plain text
 sudo su -
 ```
-![[G_Rayeroux_Procedure_ImporterCSVGlpi_24112025.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025.png]]
 2. Entrer le mot de passe du compte super utilisateur, puis appuyer sur **Entrée**
 
 ---
@@ -43,7 +43,7 @@ tar -xvf glpi-datainjection-2.15.1.tar.bz2
 4. Sur l'interface GLPI, aller dans **« Configuration »** → **« Plugins »**
 5. Sur la ligne **« Data Injection »**, activer le plugin
 
-![[G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 1.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 1.png]]
 
 ---
 
@@ -52,24 +52,24 @@ tar -xvf glpi-datainjection-2.15.1.tar.bz2
 6. Dans **« Outils »**, cliquer sur **« Data Injection »**, puis sur l'icône **« Modèle »**
 7. Cliquer sur **« Ajouter »**
 
-![[G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 2.png]]
-![[G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 3.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 2.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 3.png]]
 
 8. Remplir les champs, choisir la catégorie de données à injecter, puis cliquer sur **« Ajouter »**
 
-![[G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 4.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 4.png]]
 
 9. Sélectionner le fichier CSV à injecter pour préparer le modèle
 
-![[G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 5.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 5.png]]
 
 10. Effectuer les correspondances entre les en-têtes CSV et les champs de la catégorie, puis cliquer sur **« Sauvegarder »**
 
-![[G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 6.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 6.png]]
 
 11. Aller dans l'onglet **« Validation »**, puis cliquer sur **« Valider le modèle »**
 
-![[G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 7.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 7.png]]
 
 ---
 
@@ -80,4 +80,4 @@ tar -xvf glpi-datainjection-2.15.1.tar.bz2
 14. Sélectionner le fichier CSV contenant les données
 15. Cliquer sur **« Procéder à l'injection »**
 
-![[G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 8.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025 8.png]]

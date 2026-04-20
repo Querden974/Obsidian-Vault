@@ -46,7 +46,7 @@ Proxmox VE utilise un système de **RBAC** (Role-Based Access Control). Chaque p
    
    Cliquer sur **« Add »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 33.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 33.png]]
 
 > [!info]+ Realm `@pam`
 > Le realm **`pam`** correspond aux utilisateurs Linux locaux du nœud Proxmox (authentification PAM). Pour créer un utilisateur `gautier`, il faut d'abord le créer sur le système Debian sous-jacent :

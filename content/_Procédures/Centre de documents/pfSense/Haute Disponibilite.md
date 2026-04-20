@@ -37,8 +37,8 @@ Pour les 2 VMs, ajouter une carte réseau dédiée au protocole CARP, puis param
 
 Dans **Firewall** → **Virtual IPs**, ajouter 2 nouvelles adresses virtuelles (une par interface partagée).
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 67.png]]
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 68.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 67.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 68.png]]
 
 Répéter les opérations sur le pfSense **ESCLAVE**.
 
@@ -48,7 +48,7 @@ Répéter les opérations sur le pfSense **ESCLAVE**.
 
 Aller dans **Services** → **DHCP Server**, sélectionner **LAN**, puis modifier la **Gateway** en plaçant l'adresse virtuelle CARP créée précédemment, puis sauvegarder.
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 69.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 69.png]]
 
 ---
 
@@ -56,8 +56,8 @@ Aller dans **Services** → **DHCP Server**, sélectionner **LAN**, puis modifie
 
 Depuis le pfSense **MAÎTRE**, aller dans **System** → **High Availability** et renseigner la configuration de synchronisation.
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 70.png]]
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 71.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 70.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 71.png]]
 
 ---
 
@@ -67,26 +67,26 @@ Depuis le pfSense **MAÎTRE**, aller dans **System** → **High Availability** e
 
 Ajouter une nouvelle règle **NAT Outbound** pour gérer le NAT sortant sur l'interface WAN :
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 72.png]]
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 73.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 72.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 73.png]]
 
 ### 4.2 Règle pour l'interface CARP
 
 Dans les règles de Firewall, ajouter une règle pour l'interface CARP :
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 74.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 74.png]]
 
 ### 4.3 Règle pour le protocole XML-RPC
 
 Créer une règle pour le protocole XML-RPC (synchronisation de la configuration entre MAÎTRE et ESCLAVE) :
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 75.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 75.png]]
 
 ### 4.4 Règle pour les flux internes CARP
 
 Créer une règle pour les flux au sein du réseau CARP :
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 76.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 76.png]]
 
 ---
 
@@ -94,11 +94,11 @@ Créer une règle pour les flux au sein du réseau CARP :
 
 1. Aller dans **System** → **Routing**, créer une Gateway avec la passerelle fournie par le FAI, puis la sélectionner dans **« Default gateway IPv4 »**
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 77.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 77.png]]
 
 2. Dans les règles de l'interface LAN, modifier la règle **« Default allow LAN to any rule »**, accéder aux paramètres avancés, puis changer la Gateway
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 78.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 78.png]]
 
 ---
 
@@ -108,11 +108,11 @@ Aller dans **Status** → **CARP (failover)** pour vérifier le statut.
 
 | MAÎTRE | ESCLAVE |
 |---|---|
-| ![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 79.png]] | ![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 80.png]] |
+| ![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 79.png]] | ![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 80.png]] |
 
 Sur le pfSense ESCLAVE, vérifier que la configuration a bien été synchronisée depuis le MAÎTRE :
 
-![[G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 81.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_PriseEnMainPfsense_15012026(1) 81.png]]
 
 > [!note]
 > Pour tester la bascule, désactiver temporairement CARP sur le pfSense **MAÎTRE**. Le statut CARP de l'**ESCLAVE** doit passer en **MASTER** automatiquement. Une fois le MAÎTRE remis en ligne, il reprend son rôle.

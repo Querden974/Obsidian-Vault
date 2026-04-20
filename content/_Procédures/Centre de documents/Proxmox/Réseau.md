@@ -26,7 +26,7 @@ Par défaut après installation, deux interfaces sont présentes :
 | `ens33` | Network Device | Interface physique (ou virtuelle VMware) |
 | `vmbr0` | Linux Bridge | Bridge principal, lié à `ens33`, IP du nœud |
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 25.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 25.png]]
 
 > [!note]+ Linux Bridge
 > Un **Linux Bridge** est un switch virtuel qui relie les VMs à l'interface physique. `vmbr0` est le bridge par défaut créé à l'installation, il porte l'adresse IP du nœud Proxmox.
@@ -39,7 +39,7 @@ Un second bridge permet d'isoler des VMs dans un réseau dédié ou de gérer de
 
 1. Dans **System** → **Network**, cliquer sur **« Create »** → **« Linux Bridge »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 26.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 26.png]]
 
 2. Renseigner les paramètres du nouveau bridge :
    - **Name :** `vmbr1`
@@ -48,7 +48,7 @@ Un second bridge permet d'isoler des VMs dans un réseau dédié ou de gérer de
    
    Cliquer sur **« Create »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 27.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 27.png]]
 
 3. Cliquer sur **« Apply Configuration »** pour appliquer les changements réseau.
 
@@ -63,7 +63,7 @@ Pour placer une VM dans un VLAN spécifique, il faut modifier son interface rés
 
 1. Sélectionner la VM dans l'arborescence (ex. `100 (Debian13)`), puis aller dans **Hardware** et sélectionner **Network Device (net0)**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 28.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 28.png]]
 
 2. Cliquer sur **« Edit »** et modifier :
    - **Bridge :** `vmbr1` (le bridge VLAN-aware)
@@ -71,7 +71,7 @@ Pour placer une VM dans un VLAN spécifique, il faut modifier son interface rés
    
    Cliquer sur **« OK »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 29.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 29.png]]
 
 > [!info]+ VLAN Tag
 > Le **VLAN Tag** configure le tag 802.1Q sur le port de la VM. Le bridge doit être **VLAN aware** pour que cela fonctionne.
@@ -84,7 +84,7 @@ Un Linux VLAN crée une interface virtuelle taguée sur une interface physique e
 
 1. Dans **System** → **Network**, sélectionner le nœud **pve**, puis cliquer sur **« Create »** → **« Linux VLAN »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 30.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 30.png]]
 
 2. Renseigner :
    - **Name :** `ens33.99` (convention : `<interface>.<vlan-id>`)
@@ -92,7 +92,7 @@ Un Linux VLAN crée une interface virtuelle taguée sur une interface physique e
    
    Cliquer sur **« Create »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 31.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 31.png]]
 
 ---
 
@@ -107,7 +107,7 @@ Pour exposer le VLAN aux VMs, il faut créer un bridge dont le port est le Linux
    
    Cliquer sur **« OK »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 32.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 32.png]]
 
 2. Cliquer sur **« Apply Configuration »** pour appliquer.
 

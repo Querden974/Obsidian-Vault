@@ -40,7 +40,7 @@ Pour accéder au serveur SAN depuis Proxmox via SSH, l'authentification root doi
 PermitRootLogin yes
 ```
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 34.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 34.png]]
 
 2. Redémarrer le service SSH :
 
@@ -69,7 +69,7 @@ apt install targetcli-fb rtslib-fb
 targetcli
 ```
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 35.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 35.png]]
 
 ### Créer un backstore block
 
@@ -79,7 +79,7 @@ Un **backstore block** associe un périphérique bloc physique à un objet de st
 /backstores/block create disk01 /dev/sdb
 ```
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 36.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 36.png]]
 
 Vérifier la création :
 
@@ -87,7 +87,7 @@ Vérifier la création :
 ls /backstores/block
 ```
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 37.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 37.png]]
 
 ### Créer un target iSCSI
 
@@ -97,7 +97,7 @@ Un **target** est le point d'accès exposé aux initiateurs (clients iSCSI). La 
 /iscsi create
 ```
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 38.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 38.png]]
 
 > [!info]+ IQN (iSCSI Qualified Name)
 > Format : `iqn.<année>-<mois>.<domaine-inversé>:<identifiant>`
@@ -109,7 +109,7 @@ Vérifier la structure du target (TPG, ACLs, LUNs, Portals) :
 ls /iscsi
 ```
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 39.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 39.png]]
 
 ### Créer un LUN
 
@@ -125,7 +125,7 @@ Exemple :
 /iscsi/iqn.2003-01.org.linux-iscsi.san.x8664:sn.35b7f014fbc5/tpg1/luns create /backstores/block/disk01
 ```
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 40.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 40.png]]
 
 ### Vérifier la configuration complète
 
@@ -133,7 +133,7 @@ Exemple :
 ls
 ```
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 41.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 41.png]]
 
 ### Sauvegarder et quitter
 
@@ -149,7 +149,7 @@ systemctl enable rtslib-fb-targetctl
 systemctl status rtslib-fb-targetctl
 ```
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 42.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 42.png]]
 
 ---
 
@@ -159,7 +159,7 @@ systemctl status rtslib-fb-targetctl
 
 1. Dans Proxmox, aller dans **Datacenter** → **Storage** → **« Add »** → **« iSCSI »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 43.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 43.png]]
 
 2. Renseigner :
    - **ID ①** : nom du stockage (ex. `iscsi`)
@@ -172,7 +172,7 @@ Pour créer des volumes logiques (disques VM) sur le stockage iSCSI, ajouter un 
 
 3. Dans **Datacenter** → **Storage** → **« Add »** → **« LVM »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 44.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 44.png]]
 
 4. Renseigner :
    - **ID ①** : `iscsi-lvm`
@@ -183,7 +183,7 @@ Pour créer des volumes logiques (disques VM) sur le stockage iSCSI, ajouter un 
    
    Cliquer sur **« Add »**
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 45.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 45.png]]
 
 > [!note]+ Shared
 > L'option **Shared** permet à plusieurs nœuds Proxmox d'accéder au même stockage LVM. Cocher si le stockage est partagé dans un cluster.
@@ -200,7 +200,7 @@ Pour confirmer que le stockage iSCSI est bien monté et accessible depuis plusie
 ip addr
 ```
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 46.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 46.png]]
 
 La VM affiche deux adresses sur `ens33` :
 - `172.12.50.5/16` (adresse DHCP)
@@ -208,11 +208,11 @@ La VM affiche deux adresses sur `ens33` :
 
 2. Accéder à l'IP partagée depuis un navigateur → le **SERVEUR MASTER** répond :
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 47.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 47.png]]
 
 3. Lors d'une bascule (failover), la même IP répond depuis le **SERVEUR BACKUP** :
 
-![[G_Rayeroux_Procedure_Proxmox_09032026 48.png]]
+![[image/Attachments 3/G_Rayeroux_Procedure_Proxmox_09032026 48.png]]
 
 > [!success]+ Résultat
 > Le stockage iSCSI partagé permet aux deux VMs (MASTER et BACKUP) d'accéder aux mêmes données. La VIP `172.12.50.100` bascule automatiquement entre les serveurs en cas de panne.

@@ -12,7 +12,7 @@ Date de création: 2025-01-08
 
 Aller dans **Status** → **System Logs** pour analyser le trafic de pfSense.
 
-![[Installation_CISCO_CSB250_08012025(1) 42.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 42.png]]
 
 ---
 
@@ -23,7 +23,7 @@ Aller dans **Status** → **System Logs** pour analyser le trafic de pfSense.
 1. Aller dans **Diagnostics** → **Command Prompt**
 2. Définir l'emplacement du fichier log à télécharger
 
-![[Installation_CISCO_CSB250_08012025(1) 43.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 43.png]]
 
 ### 2.2 Télécharger tous les logs
 
@@ -34,4 +34,4 @@ zip -r archive-log.zip /var/log
 ```
 3. Télécharger l'archive depuis **Diagnostics** → **Command Prompt**
 
-![[Installation_CISCO_CSB250_08012025(1) 44.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 44.png]]

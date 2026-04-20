@@ -12,7 +12,7 @@ Date de création: 2025-01-08
 
 Aller dans **System** → **Routing** → **Static Routes** pour créer les routes vers chaque VLAN.
 
-![[Installation_CISCO_CSB250_08012025(1) 17.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 17.png]]
 
 ---
 
@@ -21,7 +21,7 @@ Aller dans **System** → **Routing** → **Static Routes** pour créer les rout
 1. Aller dans **System** → **Routing** → **Gateways**
 2. Créer les gateways pour les interfaces **LAN** et **WAN**
 
-![[Installation_CISCO_CSB250_08012025(1) 18.png]]
+![[image/Attachments 3/Installation_CISCO_CSB250_08012025(1) 18.png]]
 
 > [!warning]
 > Laisser la **default gateway IPv4** en mode **« Automatic »**.
