@@ -25,14 +25,12 @@
             "id": "67ead08bb5cd823c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_Procédures/Centre de documents/Linux/GLPI/Importer CSV GLPI.md",
-                "mode": "source",
-                "source": false
+                "file": "image/Attachments/Veyon client 5.png"
               },
-              "icon": "lucide-file",
-              "title": "Importer CSV GLPI"
+              "icon": "lucide-image",
+              "title": "Veyon client 5"
             }
           }
         ],
@@ -217,8 +215,9 @@
       "print:Print note": false
     }
   },
-  "active": "67ead08bb5cd823c",
+  "active": "025d4fe5c113d70a",
   "lastOpenFiles": [
+    "_Procédures/Centre de documents/Linux/GLPI/Importer CSV GLPI.md",
     "G_Rayeroux_Procedure_ImporterCSVGlpi_24112025.md",
     "image/Attachments 3/G_Rayeroux_Procedure_ImporterCSVGlpi_24112025.png",
     "G_Rayeroux_Procedure_ImporterCSVGlpi_24112025.docx",
